@@ -1,0 +1,7 @@
+data:text/csv;charset=utf-8,Id,metric_alias_widget_481_0,metric_alias_widget_481_1
+StatusCode,Complete,Complete
+Messages,,
+Full label,eu-north-1:AWS/Lambda FunctionName:awsCrayfish ConcurrentExecutions Average 300,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Invocations Average 300
+Label,ConcurrentExecutions,Invocations
+2024/08/02 12:45:00,4.9714285714285715,1
+2024/08/02 12:50:00,4.9411764705882355,1
