@@ -1,0 +1,9 @@
+data:text/csv;charset=utf-8,Id,metric_alias_w_6Nz328ZmMX858PAlHpw9w_0
+StatusCode,Complete
+Messages,
+Full label,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Invocations Sum 60
+Label,Invocations
+2024/08/02 17:20:00,33
+2024/08/02 17:21:00,36
+2024/08/02 17:22:00,28
+2024/08/02 17:23:00,44

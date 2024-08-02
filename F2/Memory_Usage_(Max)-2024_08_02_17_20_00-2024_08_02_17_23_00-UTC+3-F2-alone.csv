@@ -1,0 +1,9 @@
+data:text/csv;charset=utf-8,Id,metric_alias_w_DyEPjWzfSNTJ4lYQscUbR_0
+StatusCode,Complete
+Messages,
+Full label,eu-north-1:LambdaInsights function_name:awsCrayfish memory_utilization Maximum 60
+Label,memory_utilization
+2024/08/02 17:20:00,2
+2024/08/02 17:21:00,2
+2024/08/02 17:22:00,2
+2024/08/02 17:23:00,2

@@ -1,0 +1,17 @@
+data:text/csv;charset=utf-8,Id,metric_alias_widget_682_0,metric_alias_widget_682_1
+StatusCode,Complete,Complete
+Messages,,
+Full label,eu-north-1:AWS/SQS QueueName:subPopQueue ApproximateAgeOfOldestMessage Average 300,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Invocations Average 300
+Label,ApproximateAgeOfOldestMessage,Invocations
+2024/08/02 16:40:00,0,
+2024/08/02 16:45:00,0,
+2024/08/02 16:50:00,0,
+2024/08/02 16:55:00,0,
+2024/08/02 17:00:00,0,
+2024/08/02 17:05:00,0,
+2024/08/02 17:10:00,0,
+2024/08/02 17:15:00,0,
+2024/08/02 17:20:00,0,1
+2024/08/02 17:25:00,0,
+2024/08/02 17:30:00,0,
+2024/08/02 17:35:00,0,
