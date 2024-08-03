@@ -1,0 +1,10 @@
+data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0
+StatusCode,Complete
+Messages,
+Full label,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Duration Maximum 60
+Label,Duration
+2024/08/03 21:48:00,2668.33
+2024/08/03 21:49:00,2373.78
+2024/08/03 21:50:00,2373.82
+2024/08/03 21:51:00,2393.84
+2024/08/03 21:52:00,2341.49
