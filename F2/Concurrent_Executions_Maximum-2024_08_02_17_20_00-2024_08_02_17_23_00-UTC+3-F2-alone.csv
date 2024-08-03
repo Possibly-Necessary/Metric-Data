@@ -1,6 +1,5 @@
 data:text/csv;charset=utf-8,Id,metric_alias_w_ivDZSXJ_GJ10gDX7ANL3z_0
-StatusCode,Complete
-Messages,
+StatusCode,Complete,Messages,
 Full label,eu-north-1:AWS/Lambda FunctionName:awsCrayfish ConcurrentExecutions Maximum 60
 Label,ConcurrentExecutions
 2024/08/02 17:20:00,7
