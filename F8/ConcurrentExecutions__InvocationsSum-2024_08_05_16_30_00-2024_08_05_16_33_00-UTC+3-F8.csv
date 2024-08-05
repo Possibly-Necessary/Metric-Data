@@ -1,0 +1,9 @@
+data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1
+StatusCode,Complete,Complete
+Messages,,
+Full label,eu-north-1:AWS/Lambda FunctionName:awsCrayfish ConcurrentExecutions Maximum 60,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Invocations Sum 60
+Label,ConcurrentExecutions,Invocations
+2024/08/05 16:30:00,6,27
+2024/08/05 16:31:00,9,42
+2024/08/05 16:32:00,6,44
+2024/08/05 16:33:00,7,36
