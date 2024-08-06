@@ -1,0 +1,9 @@
+data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0
+StatusCode,Complete
+Messages,
+Full label,eu-north-1:LambdaInsights function_name:awsCrayfish total_network Average 60
+Label,total_network
+2024/08/06 08:06:00,29752.16
+2024/08/06 08:07:00,23220.95348837209
+2024/08/06 08:08:00,22288.17777777778
+2024/08/06 08:09:00,20687.064516129034

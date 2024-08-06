@@ -1,0 +1,34 @@
+[
+    {
+        "bin(1m)": "2024-08-06 05:09:00.000",
+        "avg(@duration)": "1712.8938",
+        "max(@duration)": "2822.147",
+        "min(@duration)": "1139.675",
+        "pct(@duration, 99)": "2822.147",
+        "count(@duration)": "31"
+    },
+    {
+        "bin(1m)": "2024-08-06 05:08:00.000",
+        "avg(@duration)": "1812.3587",
+        "max(@duration)": "2802.917",
+        "min(@duration)": "1276.375",
+        "pct(@duration, 99)": "2802.917",
+        "count(@duration)": "45"
+    },
+    {
+        "bin(1m)": "2024-08-06 05:07:00.000",
+        "avg(@duration)": "1882.7381",
+        "max(@duration)": "2775.711",
+        "min(@duration)": "1277.261",
+        "pct(@duration, 99)": "2775.711",
+        "count(@duration)": "43"
+    },
+    {
+        "bin(1m)": "2024-08-06 05:06:00.000",
+        "avg(@duration)": "2174.3749",
+        "max(@duration)": "2934.714",
+        "min(@duration)": "1172.057",
+        "pct(@duration, 99)": "2934.714",
+        "count(@duration)": "25"
+    }
+]
