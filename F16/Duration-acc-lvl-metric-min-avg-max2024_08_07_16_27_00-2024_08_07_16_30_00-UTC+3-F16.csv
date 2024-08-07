@@ -1,0 +1,24 @@
+data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2
+StatusCode,Complete,Complete,Complete
+Messages,,,
+Full label,eu-north-1:AWS/Lambda Duration Minimum 10,eu-north-1:AWS/Lambda Duration Average 10,eu-north-1:AWS/Lambda Duration Maximum 10
+Label,Duration,Duration,Duration
+2024/08/07 16:27:00,912.59,1400.6249997619047,2229.06
+2024/08/07 16:27:10,,,
+2024/08/07 16:27:20,,,
+2024/08/07 16:27:30,,,
+2024/08/07 16:27:40,,,
+2024/08/07 16:27:50,,,
+2024/08/07 16:28:00,909.82,1258.3271106666666,2064.21
+2024/08/07 16:28:10,,,
+2024/08/07 16:28:20,,,
+2024/08/07 16:28:30,,,
+2024/08/07 16:28:40,,,
+2024/08/07 16:28:50,,,
+2024/08/07 16:29:00,916.1,1152.7590558490567,2181.41
+2024/08/07 16:29:10,,,
+2024/08/07 16:29:20,,,
+2024/08/07 16:29:30,,,
+2024/08/07 16:29:40,,,
+2024/08/07 16:29:50,,,
+2024/08/07 16:30:00,917.51,1156.2329411764706,1992

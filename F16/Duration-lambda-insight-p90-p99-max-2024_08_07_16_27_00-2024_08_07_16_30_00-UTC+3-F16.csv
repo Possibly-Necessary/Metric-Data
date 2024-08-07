@@ -1,0 +1,9 @@
+data:text/csv;charset=utf-8,Id,expr1m0,expr2m0,expr3m0
+StatusCode,Complete,Complete,Complete
+Messages,,,
+Full label,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Duration p50 60,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Duration p90 60,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Duration Maximum 60
+Label,Duration,Duration,Duration
+2024/08/07 16:27:00,1193.5930007564755,2012.9183256757485,2229.06
+2024/08/07 16:28:00,1006.2232990804725,1987.21296911653,2064.21
+2024/08/07 16:29:00,977.4101891677985,1958.3987272758802,2181.41
+2024/08/07 16:30:00,1012.905341136125,1917.3640653079776,1992

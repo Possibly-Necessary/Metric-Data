@@ -1,0 +1,9 @@
+data:text/csv;charset=utf-8,Id,expr1m0,mm1m0,mm2m0
+StatusCode,Complete,Complete,Complete
+Messages,,,
+Full label,eu-north-1:awsCrayfish,eu-north-1:LambdaInsights function_name:awsCrayfish total_memory Maximum 60,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Duration Sum 60
+Label,,total_memory,Duration
+2024/08/07 16:27:00,120476159.97952,2048,58826.24999
+2024/08/07 16:28:00,115967426.51903999,2048,56624.719979999994
+2024/08/07 16:29:00,125125078.95808001,2048,61096.229960000004
+2024/08/07 16:30:00,40255406.08,2048,19655.96
