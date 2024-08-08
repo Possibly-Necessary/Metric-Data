@@ -1,0 +1,12 @@
+data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2
+StatusCode,Complete,Complete,Complete
+Messages,,,
+Full label,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Duration Maximum 30,eu-north-1:LambdaInsights function_name:awsCrayfish cpu_total_time Maximum 30,eu-north-1:LambdaInsights function_name:awsCrayfish init_duration Maximum 30
+Label,Duration,cpu_total_time,init_duration
+2024/08/08 21:24:00,1993.02,1830,218
+2024/08/08 21:24:30,,,
+2024/08/08 21:25:00,2045.69,1900,220
+2024/08/08 21:25:30,,,
+2024/08/08 21:26:00,1698.88,1730,
+2024/08/08 21:26:30,,,
+2024/08/08 21:27:00,1635.06,1710,

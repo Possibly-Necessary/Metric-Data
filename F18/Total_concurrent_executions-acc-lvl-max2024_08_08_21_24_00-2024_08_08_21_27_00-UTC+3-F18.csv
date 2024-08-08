@@ -1,0 +1,9 @@
+data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0
+StatusCode,Complete
+Messages,
+Full label,eu-north-1:AWS/Lambda ConcurrentExecutions Maximum 60
+Label,ConcurrentExecutions
+2024/08/08 21:24:00,6
+2024/08/08 21:25:00,9
+2024/08/08 21:26:00,9
+2024/08/08 21:27:00,8
