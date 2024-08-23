@@ -1,0 +1,240 @@
+AWS State Machine F1 -- Logs range Aug 22, 20:18:30 -20:23:56
+
+1st Run:
+
+Duration  -----> State Machine Overall Duration
+00:00:07.729
+
+Started After  
+00:00:00.036
+Duration  ---------> State One
+00:00:01.044
+
+Duration
+00:00:05.908 -------> State Two
+Started After
+00:00:01.080
+
+Started After  
+00:00:06.988 --------> State Three
+Duration  
+00:00:00.682
+___________________
+
+2nd Run:
+
+Duration  ----------> State Machine Overall Duration
+00:00:08.362
+
+Started After  
+00:00:00.030 ------> State One
+Duration  
+00:00:00.481
+
+Duration
+00:00:07.537
+Started After -------> State Two
+00:00:00.511
+
+Started After  
+00:00:08.048 ------> State Three
+Duration  
+00:00:00.255
+
+_______________________________________
+
+3rd Run:
+
+Duration  
+00:00:08.971 ------> State Machine Overall Duration
+
+
+Started After  
+00:00:00.040 --------> State One
+Duration  
+00:00:00.395
+
+
+Duration
+00:00:08.311 -------> State Two
+Started After
+00:00:00.435
+
+
+Started After  
+00:00:08.746 -------> State Three
+Duration  
+00:00:00.204
+
+______________________________________
+
+4th run: 
+
+Duration  
+00:00:08.361 ------> State Machine Overall Duration
+
+
+Started After  
+00:00:00.040
+Duration  ---------> State One
+00:00:00.398
+
+
+Duration
+00:00:07.736
+Started After  ------> State Two
+00:00:00.438
+
+Started After  
+00:00:08.174 ---------> State Three
+Duration  
+00:00:00.172
+
+____________________________________________
+
+5th Run:
+
+Duration  -----------> State Machine Overall Duration
+00:00:05.946
+
+
+Started After  
+00:00:00.041
+Duration  ------------> State One
+00:00:00.384
+
+
+Duration
+00:00:05.317
+Started After ---------> State Two
+00:00:00.425
+
+
+Started After  
+00:00:05.742
+Duration  -----------> State Three
+00:00:00.185
+
+___________________________________________
+
+6th Run:
+
+Duration  -------> State Machine Overall Duration
+00:00:06.507
+
+
+Started After  
+00:00:00.037 --------> State One
+Duration  
+00:00:00.374
+
+
+Duration
+00:00:05.918 --------> State Two
+Started After
+00:00:00.411
+
+Started After  
+00:00:06.329  ------> State Three
+Duration  
+00:00:00.148
+
+
+___________________________________________________
+
+7th Run:
+
+Duration  ---------> State Machine Overall Duration
+00:00:07.151
+
+
+Started After  
+00:00:00.028
+Duration  ------------> State one
+00:00:00.399
+
+
+Duration
+00:00:06.537 ----------> State Two
+Started After
+00:00:00.427
+
+
+Started After  -----------> State Three
+00:00:06.964
+Duration  
+00:00:00.168
+_________________________________________________
+
+8th Run:
+
+Duration  -------------> State Machine Overall Duration
+00:00:05.997
+
+
+Started After  
+00:00:00.037 --------> State One
+Duration  
+00:00:00.401
+
+
+Duration
+00:00:05.320 ------> State Two
+Started After
+00:00:00.438
+
+
+Started After  
+00:00:05.758 -----------> State Three
+Duration  
+00:00:00.208
+
+________________________________________________
+
+9th Run:
+
+Duration  ---------> State Machine Overall Duration
+00:00:05.651
+
+
+Started After  
+00:00:00.039 ------> State One
+Duration  
+00:00:00.316
+
+
+Duration
+00:00:05.111 -------> State Two
+Started After
+00:00:00.355
+
+
+Started After  
+00:00:05.466 -------> State Three
+Duration  
+00:00:00.165
+
+____________________________________________
+
+10th Run:
+
+Duration  ----------> State Machine Overall Duration
+00:00:08.866
+
+
+Started After  
+00:00:00.041 --------------> State One
+Duration  
+00:00:00.400
+
+
+Duration
+00:00:08.218 -----------> State Two
+Started After
+00:00:00.441
+
+
+Started After  ------------> State Three
+00:00:08.659
+Duration  
+00:00:00.181
