@@ -1,0 +1,12 @@
+data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1
+StatusCode,Complete,Complete
+Messages,,
+Full label,eu-north-1:AWS/States StateMachineArn:arn:aws:states:eu-north-1:382277151775:stateMachine:COA-StateMachine ExecutionTime Average 60,eu-north-1:AWS/States StateMachineArn:arn:aws:states:eu-north-1:382277151775:stateMachine:COA-StateMachine/Map ExecutionTime Average 60
+Label,ExecutionTime,ExecutionTime
+2024/08/23 20:31:00,9465,1831.35
+2024/08/23 20:32:00,7117,1475.3
+2024/08/23 20:33:00,6083,1409.4
+2024/08/23 20:34:00,6881.5,1415.85
+2024/08/23 20:35:00,8019,1456.55
+2024/08/23 20:36:00,8947,1424.075
+2024/08/23 20:37:00,8770,1419.65
