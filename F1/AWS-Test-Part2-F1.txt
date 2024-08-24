@@ -72,6 +72,20 @@ AWS F1:
 2024/08/02 15:50:24 Waiting For messages from SQS: 3.8323145s
 
 
+---------------
+
+Average: 8.9051181 s
+
+Sum:	89.051181
+Count:	10
+Median:	8.91355075
+Geometric Mean:	8.8919587010978
+Largest:	9.6782621
+Smallest:	8.2968761
+Range:	1.381386
+
+
+
 
 
 
