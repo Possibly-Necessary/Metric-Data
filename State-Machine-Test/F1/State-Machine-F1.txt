@@ -238,3 +238,14 @@ Started After  ------------> State Three
 00:00:08.659
 Duration  
 00:00:00.181
+____________________________________________________________________
+
+Average: 7.3541 s
+
+Sum:	73.541
+Count:	10
+Median:	7.44
+Geometric Mean:	7.2531926424583
+Largest:	8.971
+Smallest:	5.651
+Range:	3.32
