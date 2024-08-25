@@ -1,0 +1,12 @@
+data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_3
+StatusCode,Complete,Complete,Complete
+Messages,,,
+Full label,eu-north-1:AWS/Lambda FunctionName:Crayfish Duration Average 60,eu-north-1:AWS/Lambda FunctionName:aggrCrayfish Duration Average 60,eu-north-1:AWS/Lambda FunctionName:initCrayfishPop Duration Average 60
+Label,Duration,Duration,Duration
+2024/08/25 21:05:00,1493.4504999999997,,499.91
+2024/08/25 21:06:00,1358.9355,71.86999999999999,249.29
+2024/08/25 21:07:00,1361.12825,1.815,252.645
+2024/08/25 21:08:00,1361.7040000000002,1.19,237.93
+2024/08/25 21:09:00,1348.663,1.535,266.09000000000003
+2024/08/25 21:10:00,1360.7620000000002,1.54,282.65
+2024/08/25 21:11:00,1363.3402494999996,1.83,299.675
