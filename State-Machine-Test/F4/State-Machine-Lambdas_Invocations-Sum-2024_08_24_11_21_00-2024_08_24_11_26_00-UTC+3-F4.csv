@@ -1,0 +1,11 @@
+data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0
+StatusCode,Complete
+Messages,
+Full label,eu-north-1:AWS/Lambda Invocations Sum 60
+Label,Invocations
+2024/08/24 11:21:00,44
+2024/08/24 11:22:00,43
+2024/08/24 11:23:00,44
+2024/08/24 11:24:00,23
+2024/08/24 11:25:00,44
+2024/08/24 11:26:00,22
