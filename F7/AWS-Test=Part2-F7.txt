@@ -70,6 +70,17 @@ AWS F7:
 2024/08/04 16:47:39 Sub-population numbers: [[4] [13] [6] [10] [16] [8] [17] [20] [14] [9] [9 11] [12] [19] [7] [18 1] [2] [5] [3] [15] [18]]       
 2024/08/04 16:47:39 Waiting For messages from SQS: 3.8910595s
 
+--------------
+Exec. Time
 
+Average: 9.59750622 s
+
+Sum:	95.9750622
+Count:	10
+Median:	9.17541915
+Geometric Mean:	9.4778972237461
+Largest:	14.2559502
+Smallest:	8.2407262
+Range:	6.015224
 
 
