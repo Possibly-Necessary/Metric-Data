@@ -1,0 +1,13 @@
+data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_3
+StatusCode,Complete,Complete,Complete
+Messages,,,
+Full label,eu-north-1:LambdaInsights function_name:Crayfish total_network Maximum 60,eu-north-1:LambdaInsights function_name:aggrCrayfish total_network Maximum 60,eu-north-1:LambdaInsights function_name:initCrayfishPop total_network Maximum 60
+Label,total_network,total_network,total_network
+2024/08/27 15:09:00,84,84,4714413
+2024/08/27 15:10:00,27363,178,4767307
+2024/08/27 15:11:00,15815,1929,4748701
+2024/08/27 15:12:00,15943,3097,4734244
+2024/08/27 15:13:00,15811,9192,4732276
+2024/08/27 15:14:00,15877,847,4746465
+2024/08/27 15:15:00,15877,11600,4749517
+2024/08/27 15:16:00,27165,1764,
