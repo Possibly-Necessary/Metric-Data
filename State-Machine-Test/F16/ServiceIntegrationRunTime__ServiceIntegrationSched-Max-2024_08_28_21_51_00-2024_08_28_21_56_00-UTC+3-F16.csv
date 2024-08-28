@@ -1,0 +1,11 @@
+data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2,metric_alias_metrics_view_graph_3,metric_alias_metrics_view_graph_4
+StatusCode,Complete,Complete,Complete,Complete,Complete
+Messages,,,,,
+Full label,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationsStarted Maximum 60,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationScheduleTime Maximum 60,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationRunTime Maximum 60,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationsScheduled Maximum 60,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationTime Maximum 60
+Label,ServiceIntegrationsStarted,ServiceIntegrationScheduleTime,ServiceIntegrationRunTime,ServiceIntegrationsScheduled,ServiceIntegrationTime
+2024/08/28 21:51:00,1,410,1664,1,1862
+2024/08/28 21:52:00,1,320,1104,1,1376
+2024/08/28 21:53:00,1,301,1124,1,1328
+2024/08/28 21:54:00,1,285,1087,1,1347
+2024/08/28 21:55:00,1,296,1431,1,1665
+2024/08/28 21:56:00,1,251,1092,1,1284

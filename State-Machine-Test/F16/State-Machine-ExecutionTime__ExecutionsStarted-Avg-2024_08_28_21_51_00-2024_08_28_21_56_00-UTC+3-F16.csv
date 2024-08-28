@@ -1,0 +1,11 @@
+data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2,metric_alias_metrics_view_graph_3
+StatusCode,Complete,Complete,Complete,Complete
+Messages,,,,
+Full label,eu-north-1:AWS/States StateMachineArn:arn:aws:states:eu-north-1:382277151775:stateMachine:COA-StateMachine ExecutionsStarted Average 60,eu-north-1:AWS/States StateMachineArn:arn:aws:states:eu-north-1:382277151775:stateMachine:COA-StateMachine ExecutionTime Average 60,eu-north-1:AWS/States StateMachineArn:arn:aws:states:eu-north-1:382277151775:stateMachine:COA-StateMachine/Map ExecutionsStarted Average 60,eu-north-1:AWS/States StateMachineArn:arn:aws:states:eu-north-1:382277151775:stateMachine:COA-StateMachine/Map ExecutionTime Average 60
+Label,ExecutionsStarted,ExecutionTime,ExecutionsStarted,ExecutionTime
+2024/08/28 21:51:00,0.5,6911.5,0.5,1640.8
+2024/08/28 21:52:00,0.6666666666666666,5820,0.5,1371.5
+2024/08/28 21:53:00,0.5,6915.5,0.5,1336.8
+2024/08/28 21:54:00,0.3333333333333333,5758,0.5,1329.25
+2024/08/28 21:55:00,0.5,5808.5,0.5,1346.125
+2024/08/28 21:56:00,0.5,5489,0.5,1338.55
