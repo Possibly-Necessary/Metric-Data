@@ -1,0 +1,11 @@
+data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2
+StatusCode,Complete,Complete,Complete
+Messages,,,
+Full label,eu-north-1:LambdaInsights function_name:initCrayfishPop memory_utilization Maximum 60,eu-north-1:LambdaInsights function_name:Crayfish memory_utilization Maximum 60,eu-north-1:LambdaInsights function_name:aggrCrayfish memory_utilization Maximum 60
+Label,memory_utilization,memory_utilization,memory_utilization
+2024/08/26 22:29:00,3,1,1
+2024/08/26 22:30:00,4,1,1
+2024/08/26 22:31:00,4,1,1
+2024/08/26 22:32:00,4,1,1
+2024/08/26 22:33:00,4,1,1
+2024/08/26 22:34:00,4,1,1

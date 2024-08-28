@@ -1,0 +1,11 @@
+data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1
+StatusCode,Complete,Complete
+Messages,,
+Full label,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationRunTime Average 60,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationTime Average 60
+Label,ServiceIntegrationRunTime,ServiceIntegrationTime
+2024/08/26 22:29:00,2027.9545454545455,2217.681818181818
+2024/08/26 22:30:00,1678.7272727272727,1860.75
+2024/08/26 22:31:00,1675.0454545454545,1857.2272727272727
+2024/08/26 22:32:00,1602.8695652173913,1789.9130434782608
+2024/08/26 22:33:00,1719.6511627906978,1951.9767441860465
+2024/08/26 22:34:00,1678.8636363636363,1851.2272727272727

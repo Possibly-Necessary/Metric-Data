@@ -1,0 +1,297 @@
+AWS State Machine F5; logs range Aug 26, 22:29:34 - 22:34:55
+
+
+1st Run: 
+
+Duration  
+00:00:09.483 -----> Overall Duration
+
+
+Started After  
+00:00:00.043 -----> State One
+Duration  
+00:00:01.042
+
+
+Duration
+00:00:07.737 -----------> State Two
+Started After
+00:00:01.085
+
+
+Started After  
+00:00:08.822
+Duration  ------------> State Three
+00:00:00.638
+
+"overallBestFit": 497.78066537142803
+
+___________________________________________________________________
+
+2nd Run:
+
+Duration  
+00:00:09.521 ------> Overall Duration
+
+
+Started After  
+00:00:00.037
+Duration   ---------------> State One
+00:00:00.497
+
+
+Duration
+00:00:08.753 -----------> State Two
+Started After
+00:00:00.534
+
+
+Started After  
+00:00:09.287 -------> State Three
+Duration  
+00:00:00.215
+
+"overallBestFit": 497.71740444674134
+
+___________________________________________________________________
+
+3rd Run:
+
+Duration  
+00:00:06.598 ---------> Overall Duration
+
+
+Started After  
+00:00:00.043
+Duration  ----------------> State One
+00:00:00.396
+
+
+Duration
+00:00:05.949 -----------> State Two
+Started After
+00:00:00.439
+
+
+Started After  
+00:00:06.388
+Duration  ---------> State Three
+00:00:00.189
+
+"overallBestFit": 497.37166146443633
+
+___________________________________________________
+
+4th Run:
+
+Duration  
+00:00:08.792 -----> Overall Duration
+
+
+Started After  
+00:00:00.138 ------> State One
+Duration  
+00:00:00.442
+
+
+Duration
+00:00:07.970 ----------> State Two
+Started After
+00:00:00.580
+
+
+Started After  
+00:00:08.550 --------> State Three
+Duration  
+00:00:00.216
+
+"overallBestFit": 497.83302446183245
+
+
+____________________________________________________
+
+5th Run:
+
+Duration  
+00:00:09.073 -----------> Overall Duration
+
+
+Started After  
+00:00:00.028
+Duration  ---------------> State One
+00:00:00.382
+
+
+Duration
+00:00:08.434 ------------> State Two
+Started After
+00:00:00.410
+
+
+Started After  
+00:00:08.844
+Duration  -------------> State Three
+00:00:00.204
+
+"overallBestFit": 497.73147753574267
+
+______________________________________________________
+
+6th Run:
+
+Duration  
+00:00:07.389 ----------> Overall Duration
+
+
+Started After  
+00:00:00.032
+Duration  -----------> State One
+00:00:00.342
+
+
+Duration
+00:00:06.598 -------------> State Two
+Started After
+00:00:00.374
+
+
+Started After  
+00:00:06.972
+Duration  -----------> State Three
+00:00:00.388
+
+"overallBestFit": 497.5735611249093
+
+______________________________________________________
+
+7th Run:
+
+Duration  
+00:00:06.999 -------> Overall Duration
+
+
+Started After  
+00:00:00.074
+Duration  --------> State One
+00:00:00.408
+
+
+Duration
+00:00:06.245
+Started After -----------> State Two
+00:00:00.482
+
+
+Started After  
+00:00:06.727 -----> State Three
+Duration  
+00:00:00.239
+
+"overallBestFit": 497.7672962791664
+
+______________________________________________________
+
+8th Run:
+
+Duration  
+00:00:08.524 ------> Overall Duration
+
+
+Started After  
+00:00:00.031 -------> State One
+Duration  
+00:00:00.379
+
+
+Duration
+00:00:06.365 -----------> State Two
+Started After
+00:00:00.410
+
+
+Started After  
+00:00:06.775
+Duration  --------------> State Three
+00:00:01.733
+
+"overallBestFit": 497.56245370652516
+
+______________________________________________________________
+
+9th Run:
+
+Duration  
+00:00:06.589 --------> Overall Duration
+
+
+Started After  
+00:00:00.026 -------> State One
+Duration  
+00:00:00.381
+
+
+Duration
+00:00:05.939 ------------> State Two
+Started After
+00:00:00.407
+
+
+Started After  
+00:00:06.346
+Duration  ---------------> State Three
+00:00:00.224
+
+"overallBestFit": 497.86677233699345
+
+_________________________________________________________
+
+10th Run:
+
+Duration  
+00:00:07.041 ----------> Overall Duration
+
+
+Started After  
+00:00:00.041
+Duration  ------------> State One
+00:00:00.378
+
+
+Duration
+00:00:06.386 
+Started After ------> State Two
+00:00:00.419
+
+
+Started After  
+00:00:06.805
+Duration  ----------> State Three
+00:00:00.208
+
+"overallBestFit": 497.3480208077628
+
+___________________________________________________
+
+Average: 8.0009 s
+
+Sum:	80.009
+Count:	10
+Median:	7.9565
+Geometric Mean:	7.9206316533099
+Largest:	9.521
+Smallest:	6.589
+Range:	2.932
+
+
+
+
+Fitness Value Average:
+497.65523375355
+
+Sum:	4976.5523375355
+Count:	10
+Median:	497.72444099124
+Geometric Mean:	497.65520316564
+Largest:	497.86677233699345
+Smallest:	497.3480208077628
+Range:	0.51875152923066
