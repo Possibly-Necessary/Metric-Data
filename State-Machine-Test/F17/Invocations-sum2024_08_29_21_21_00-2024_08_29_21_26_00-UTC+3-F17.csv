@@ -1,0 +1,11 @@
+data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_3
+StatusCode,Complete,Complete,Complete
+Messages,,,
+Full label,eu-north-1:AWS/Lambda FunctionName:Crayfish Invocations Sum 60,eu-north-1:AWS/Lambda FunctionName:aggrCrayfish Invocations Sum 60,eu-north-1:AWS/Lambda FunctionName:initCrayfishPop Invocations Sum 60
+Label,Invocations,Invocations,Invocations
+2024/08/29 21:21:00,40,2,2
+2024/08/29 21:22:00,40,2,2
+2024/08/29 21:23:00,40,1,2
+2024/08/29 21:24:00,20,2,2
+2024/08/29 21:25:00,40,2,1
+2024/08/29 21:26:00,20,1,1

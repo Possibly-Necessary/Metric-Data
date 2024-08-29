@@ -1,0 +1,285 @@
+State Machine Test F17. Logs range Aug 29, 21:21:15 - 21:26:08
+
+1st Run:
+
+Duration  
+00:00:07.450 ----> Overall Duration
+
+
+Started After  
+00:00:00.043
+Duration  ---------> State One
+00:00:01.001
+
+
+Duration
+00:00:05.718 --------> State Two
+Started After
+00:00:01.044
+
+
+Started After  
+00:00:06.762 -------> State Three
+Duration  
+00:00:00.665
+
+"overallBestFit": 0.39788735772977296
+
+____________________________________________
+
+2nd Run:
+
+Duration  
+00:00:05.731 ----> Overall Duration
+
+
+Started After  
+00:00:00.095
+Duration  -------> State One
+00:00:00.344
+
+
+Duration
+00:00:04.974 --------> State Two
+Started After
+00:00:00.439
+
+
+Started After  
+00:00:05.413
+Duration  -----> State Three
+00:00:00.303
+
+"overallBestFit": 0.39788735772978134
+
+___________________________________________
+
+3rd Run:
+
+Duration  
+00:00:05.970 ------> Overall Duration
+
+
+Started After  
+00:00:00.030
+Duration  -----------> State One
+00:00:00.410
+
+
+Duration
+00:00:05.302 --------> State Two
+Started After
+00:00:00.440
+
+
+Started After  
+00:00:05.742 --------> State Three
+Duration  
+00:00:00.201
+
+"overallBestFit": 0.39788735772986866
+
+_____________________________________________
+
+4th Run:
+
+Duration  
+00:00:05.874 -----------> Overall Duration
+
+
+Started After  
+00:00:00.038 ------> State One
+Duration  
+00:00:00.353
+
+
+Duration
+00:00:05.247 --------> State Two
+Started After
+00:00:00.391
+
+
+Started After  
+00:00:05.638
+Duration  -------> State Three
+00:00:00.214
+
+"overallBestFit": 0.3978873577298039
+
+_______________________________________________
+
+5th Run:
+
+Duration  
+00:00:08.748 ------> Overall Duration
+
+
+Started After  
+00:00:00.030 ------> State One
+Duration  
+00:00:00.371
+
+
+Duration
+00:00:08.117 ----------> State Two
+Started After
+00:00:00.401
+
+
+Started After  
+00:00:08.518
+Duration  ----------> State Three
+00:00:00.210
+
+"overallBestFit": 0.3978873577298015
+
+______________________________________________
+
+6th Run:
+
+Duration  
+00:00:05.868 ------> Overall Duration
+
+
+Started After  
+00:00:00.029
+Duration  ---------> State One
+00:00:00.360
+
+
+Duration
+00:00:05.189 ---------> State Two
+Started After
+00:00:00.389
+
+
+Started After  
+00:00:05.578 --------> State Three
+Duration  
+00:00:00.267
+
+"overallBestFit": 0.39788735773001294
+
+_____________________________________________
+
+7th Run:
+
+Duration  
+00:00:05.430 ----------> Overall Duration
+
+
+Started After  
+00:00:00.041
+Duration  ----------> State One
+00:00:00.359
+
+
+Duration
+00:00:04.817 -----------> State Two 
+Started After
+00:00:00.400
+
+
+Started After  
+00:00:05.217
+Duration  ------------> State Three
+00:00:00.192
+
+"overallBestFit": 0.3978873577297646
+
+______________________________________________
+
+8th Run:
+
+Duration  
+00:00:08.904 -----------> Overall Duration
+
+
+Started After  
+00:00:00.025
+Duration  -----------> State One
+00:00:00.321
+
+
+Duration
+00:00:08.316 ----------> State Two
+Started After
+00:00:00.346
+
+
+Started After  
+00:00:08.662 ---------> State Three
+Duration  
+00:00:00.220
+
+"overallBestFit": 0.39788735772974226
+
+_____________________________________________
+
+9th Run:
+
+Duration  
+00:00:05.853 -------------> Overall Duration
+
+
+Started After  
+00:00:00.025
+Duration  ----------> State One
+00:00:00.368
+
+
+Duration
+00:00:05.220 ------> State Two
+Started After
+00:00:00.393
+
+
+Started After  
+00:00:05.613
+Duration  ----------> State Three
+00:00:00.219
+
+"overallBestFit": 0.39788735772978107
+
+________________________________________________
+
+10th Run:
+
+Duration  
+00:00:08.413 ---------> Overall Duration
+
+
+Started After  
+00:00:00.047
+Duration  ---------> State One
+00:00:00.420
+
+
+Duration
+00:00:07.712 -------------> State Two
+Started After
+00:00:00.467
+
+
+Started After  
+00:00:08.179
+Duration  ---------------> State Three
+00:00:00.217
+
+"overallBestFit": 0.3978873577297849
+____________________________________________________
+
+Average: 6.8241 s
+
+Sum:	68.241
+Count:	10
+Median:	5.922
+Geometric Mean:	6.7025617348364
+Largest:	8.904
+Smallest:	5.430
+Range:	3.474
+
+
+____________________________________
+
+Fitness Average: 0.39788735772981
