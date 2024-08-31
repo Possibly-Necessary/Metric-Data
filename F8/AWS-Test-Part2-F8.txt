@@ -70,3 +70,15 @@ PS C:\Users\Zahraa\Desktop\Go Workspace\COA - Go\Serverless\AWS
 2024/08/05 16:33:43 Executed in: 9.0477278s
 2024/08/05 16:33:43 Sub-population numbers: [[19] [6] [12] [8] [16 13] [4] [8 14] [12 9] [18] [10] [5] [16] [4 1] [17] [7] [11] [20] [3] [2] [15]]  
 2024/08/05 16:33:43 Waiting For messages from SQS: 3.7632381s
+
+------
+
+Average: 10.45163026 s
+
+Sum:	104.5163026
+Count:	10
+Median:	10.009373
+Geometric Mean:	10.378983723957
+Largest:	12.614082
+Smallest:	9.0477278
+Range:	3.5663542
