@@ -1,0 +1,273 @@
+AWS State Machine Test F10. Logs range Sep 1, 20:31:58 - 20:38:18
+
+1st Run:
+
+Duration  
+00:00:10.665 ----> Overall Duration
+
+
+Started After  
+00:00:00.038
+Duration  ---------> State One
+00:00:01.599
+
+
+Duration
+00:00:08.436 -------> State Two
+Started After
+00:00:01.637
+
+
+Started After  
+00:00:10.073 ---------> State Three
+Duration  
+00:00:00.554
+
+"overallBestFit": 4.440892098500626e-16
+
+_______________________________________________
+
+2nd Run:
+
+
+Duration  
+00:00:06.148 ------> Overall Duration
+
+
+Started After  
+00:00:00.038 ------> State One
+Duration  
+00:00:00.403
+
+
+Duration
+00:00:05.445 ---------> State Two
+Started After
+00:00:00.441
+
+
+Started After  
+00:00:05.886 ------> State Three
+Duration  
+00:00:00.239
+
+_______________________________________________
+
+3rd Run:
+
+Duration  
+00:00:05.588 -----> Overall Duration
+
+
+Started After  
+00:00:00.040
+Duration  ------------> State One
+00:00:00.389
+
+
+Duration
+00:00:04.987 -----> State Two 
+Started After
+00:00:00.429
+
+
+Started After  
+00:00:05.416
+Duration   ----------> State Three
+00:00:00.157
+
+
+________________________________________________
+
+4th Run:
+
+
+Duration  
+00:00:08.637 -------> Overall Duration
+
+
+Started After  
+00:00:00.053
+Duration  -----------> State One
+00:00:00.413
+
+
+Duration
+00:00:07.962 -----------> State Two
+Started After
+00:00:00.466
+
+
+Started After  
+00:00:08.428
+Duration  --------> State Three
+00:00:00.194
+
+____________________________________________
+
+5th Run:
+
+
+Duration  
+00:00:05.956 ------> Overall Duration
+
+
+Started After  
+00:00:00.030
+Duration  ---------> State One
+00:00:00.378
+
+
+Duration
+00:00:05.370 ------> State Two
+Started After
+00:00:00.408
+
+
+Started After  
+00:00:05.778
+Duration  --------> State Three
+00:00:00.164
+
+
+_______________________________________
+
+
+6th Run:
+
+Duration  
+00:00:09.014 ----------> Overall Duration
+
+
+Started After  
+00:00:00.029 -----------> State One
+Duration  
+00:00:00.334
+
+
+Duration
+00:00:08.413 ----------> State Two
+Started After
+00:00:00.363
+
+
+Started After  
+00:00:08.776 ------> State Three
+Duration  
+00:00:00.219
+
+_____________________________________
+
+7th Run:
+
+Duration  
+00:00:05.976 -------> Overall Duration
+
+
+Started After  
+00:00:00.038 ----------> State One
+Duration  
+00:00:00.355
+
+
+Duration
+00:00:05.419 ---------> State Two
+Started After
+00:00:00.393
+
+
+Started After  
+00:00:05.812
+Duration  -----------> State Three
+00:00:00.148
+
+
+________________________________________
+
+8th Run:
+
+
+Duration  
+00:00:08.184 ------------> Overall Duration
+
+
+Started After  
+00:00:00.029 ------> State One
+Duration  
+00:00:00.364
+
+
+Duration
+00:00:07.577 ---------> State Two
+Started After
+00:00:00.393
+
+
+Started After  
+00:00:07.970
+Duration  ----------> State Three
+00:00:00.196
+
+____________________________________________
+
+9th Run:
+
+Duration  
+00:00:05.586 ---------> Overall Duration
+
+
+
+Started After  
+00:00:00.043 ---------> State One
+Duration  
+00:00:00.376
+
+
+Duration
+00:00:04.963 ---------> State Two
+Started After
+00:00:00.419
+
+
+Started After  
+00:00:05.382
+Duration  -----------> State Three
+00:00:00.188
+
+_______________________________________
+
+
+10th Run:
+
+Duration  
+00:00:08.081 ----------> Overall Duration
+
+
+Started After  
+00:00:00.030
+Duration  -----------> State One
+00:00:00.438
+
+
+Duration
+00:00:07.350 --------> State Two
+Started After
+00:00:00.468
+
+
+Started After  
+00:00:07.818
+Duration  ------------> State Three
+00:00:00.227
+
+____________________________________
+
+Average: 7.3835 s
+
+Sum:	73.835
+Count:	10
+Median:	7.1145
+Geometric Mean:	7.2013323172336
+Largest:	10.665
+Smallest:	5.586
+Range:	5.079
