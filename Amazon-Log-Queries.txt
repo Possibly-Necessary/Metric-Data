@@ -1,0 +1,85 @@
+
+Queries that kind of worked: 
+
+fields @timestamp, @message
+| parse @message "{* \"time\": \"*\", * \"benchmarkFunction\": \"*\", * \"metrics\": { \"durationMs\": *, \"billedDurationMs\": *, \"memorySizeMB\": *, \"maxMemoryUsedMB\": * } }" as before_time, time, after_time, benchmarkFunction, after_benchmarkFunction, durationMs, billedDurationMs, memorySizeMB, maxMemoryUsedMB
+| filter @message like /F3/
+| parse @message /Duration: (?<ms>\S+) ms/ 
+| stats avg(ms) as AvgDuration, max(ms) as MaxDuration
+by bin(30s)
+
+
+________________________________
+
+Percentage of cold starts in total invocations: (worked)
+
+filter @type = "REPORT"
+| stats
+  sum(strcontains(@message, "Init Duration"))/count(*) * 100 as coldStartPct,
+  avg(@duration)
+by bin(1s)
+
+
+________________________________ (Worked) # 3
+the average duration and a straightforward count of occurrences for both cold and warm starts.
+
+filter @type = "REPORT"
+| fields greatest(@initDuration, 0) + @duration as duration, ispresent(@initDuration) as coldStart
+| stats sum(duration) as totalDuration,
+  min(duration) as minDuration,
+  max(duration) as maxDuration
+by coldStart
+
+___________________________________(Worked) # 4
+
+fields @timestamp, @requestId, @duration
+| filter @type = "REPORT"
+| stats min(@duration) as minDuration, max(@duration) as maxDuration, avg(@duration) as avgDuration, count(*) as totalCount
+by bin(1m) as TimeBin
+| sort TimeBin desc
+| limit 20
+
+___________________ Total Invocations ___________________ #5
+
+fields @timestamp, @message
+| parse @message /REPORT RequestId: (?<requestId>[^\s]+) .*Init Duration: (?<initDuration>[^\s]+) ms/
+| stats count() as TotalInvocations, count(initDuration) as ColdStarts
+| sort @timestamp desc
+
+
+________________ Logs with InitDuration______________________ #6
+fields @timestamp, @message
+| filter @message like /initDuration/
+
+
+____ Counting Cold starts____ #7
+fields @timestamp, @message
+| filter @message like /initDuration/
+| stats count() as ColdStarts
+
+
+________________ Over Provision Memory Veiw of Lambda__________ #8
+
+filter @type = "REPORT"
+| stats max(@memorySize / 1024 / 1024) as provisonedMemoryMB,
+  min(@maxMemoryUsed / 1024 / 1024) as smallestMemoryRequestMB,
+  avg(@maxMemoryUsed / 1024 / 1024) as avgMemoryUsedMB,
+  max(@maxMemoryUsed / 1024 / 1024) as maxMemoryUsedMB,
+  provisonedMemoryMB - maxMemoryUsedMB as overProvisionedMB
+
+
+____________ Cold Start Precentage Over time_____________ #9
+
+filter @type = "REPORT"
+| stats
+  sum(strcontains(
+    @message
+    "Init Duration"))
+  / count(*)
+1
+____________ShowExectimeFromLogs_____ # 11
+
+fields @timestamp, requestId, functionArn, executionTime
+| sort @timestamp asc
+
+
