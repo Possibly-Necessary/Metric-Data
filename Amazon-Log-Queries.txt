@@ -1,5 +1,5 @@
-
-Queries that kind of worked: 
+AWS Query Language. These queries are used to filter and fetch certain metric information from AWS CloudWatch logs
+________________________________________
 
 fields @timestamp, @message
 | parse @message "{* \"time\": \"*\", * \"benchmarkFunction\": \"*\", * \"metrics\": { \"durationMs\": *, \"billedDurationMs\": *, \"memorySizeMB\": *, \"maxMemoryUsedMB\": * } }" as before_time, time, after_time, benchmarkFunction, after_benchmarkFunction, durationMs, billedDurationMs, memorySizeMB, maxMemoryUsedMB
