@@ -1,18 +1,18 @@
 data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1
-StatusCode,Complete,Complete
-Messages,,
-Full label,eu-north-1:AWS/Lambda FunctionName:awsCrayfish ConcurrentExecutions Maximum 30,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Invocations Maximum 30
-Label,ConcurrentExecutions,Invocations
-2024/07/31 16:33:00,9,1
-2024/07/31 16:33:30,,
-2024/07/31 16:34:00,6,1
-2024/07/31 16:34:30,,
-2024/07/31 16:35:00,9,1
-2024/07/31 16:35:30,,
-2024/07/31 16:36:00,8,1
-2024/07/31 16:36:30,,
-2024/07/31 16:37:00,7,1
-2024/07/31 16:37:30,,
-2024/07/31 16:38:00,9,1
-2024/07/31 16:38:30,,
-2024/07/31 16:39:00,7,1
+StatusCode,Complete,Complete,
+Messages,,,
+Full label,eu-north-1:AWS/Lambda FunctionName:awsCrayfish ConcurrentExecutions Maximum 30,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Invocations Maximum 30,
+Label,ConcurrentExecutions,Invocations,
+2024/07/31 16:33:00,9,1,
+2024/07/31 16:33:30,,,
+2024/07/31 16:34:00,6,1,
+2024/07/31 16:34:30,,,
+2024/07/31 16:35:00,9,1,
+2024/07/31 16:35:30,,,
+2024/07/31 16:36:00,8,1,
+2024/07/31 16:36:30,,,
+2024/07/31 16:37:00,7,1,
+2024/07/31 16:37:30,,,
+2024/07/31 16:38:00,9,1,
+2024/07/31 16:38:30,,,
+2024/07/31 16:39:00,7,1,
