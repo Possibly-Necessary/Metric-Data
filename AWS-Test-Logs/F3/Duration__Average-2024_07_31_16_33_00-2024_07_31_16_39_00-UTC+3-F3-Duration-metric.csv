@@ -1,6 +1,6 @@
 data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2
-StatusCode,Complete,Complete,Complete, Complete
-Messages,,,
+StatusCode,Complete,Complete,Complete,
+Messages,,,,
 Full label,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Duration Average 30,eu-north-1:LambdaInsights function_name:awsCrayfish cpu_total_time Average 30,eu-north-1:LambdaInsights function_name:awsCrayfish init_duration Average 30
 Label,Duration,cpu_total_time,init_duration
 2024/07/31 16:33:00,5982.585384615385,5916.076923076923,210.44444444444446
