@@ -1,12 +1,12 @@
 data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2
-StatusCode,Complete,Complete,Complete
-Messages,,,
-Full label,eu-north-1:LambdaInsights function_name:awsCrayfish total_network Sum 60,eu-north-1:LambdaInsights function_name:awsCrayfish rx_bytes Sum 60,eu-north-1:LambdaInsights function_name:awsCrayfish tx_bytes Sum 60
-Label,total_network,rx_bytes,tx_bytes
-2024/07/31 16:33:00,425372,143163,282209
-2024/07/31 16:34:00,458307,118727,339580
-2024/07/31 16:35:00,893087,227148,665939
-2024/07/31 16:36:00,771070,163266,607804
-2024/07/31 16:37:00,471694,104221,367473
-2024/07/31 16:38:00,858908,217846,641062
-2024/07/31 16:39:00,417101,99604,317497
+StatusCode,Complete,Complete,Complete,
+Messages,,,,
+Full label,eu-north-1:LambdaInsights function_name:awsCrayfish total_network Sum 60,eu-north-1:LambdaInsights function_name:awsCrayfish rx_bytes Sum 60,eu-north-1:LambdaInsights function_name:awsCrayfish tx_bytes Sum 60,
+Label,total_network,rx_bytes,tx_bytes,
+2024/07/31 16:33:00,425372,143163,282209,
+2024/07/31 16:34:00,458307,118727,339580,
+2024/07/31 16:35:00,893087,227148,665939,
+2024/07/31 16:36:00,771070,163266,607804,
+2024/07/31 16:37:00,471694,104221,367473,
+2024/07/31 16:38:00,858908,217846,641062,
+2024/07/31 16:39:00,417101,99604,317497,
