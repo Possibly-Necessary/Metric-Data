@@ -442,3 +442,22 @@ Showing nodes accounting for 3.82MB, 100% of 3.82MB total
          0     0%   100%     3.82MB   100%  main.main
          0     0%   100%     3.82MB   100%  runtime.main
 (pprof) 
+
+________________________________
+
+Average Time: 21.29295244 s
+
+Sum:	212.9295244
+Count:	10
+Median:	20.79158765
+Geometric Mean:	21.243668733668
+Largest:	25.7637339
+Smallest:	20.2788183
+Range:	5.4849156
+
+_______________________________
+
+Fitness Value:
+
+Standard Deviation, σ: 3.0551633958322E-6
+Average: 3.8521172107994E-6
