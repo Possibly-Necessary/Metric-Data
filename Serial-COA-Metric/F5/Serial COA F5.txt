@@ -447,4 +447,9 @@ Largest:	31.0309446
 Smallest:	28.1267902
 Range:	2.9041544
 
+________________________________
+Fitness Value:
+
+Standard Deviation, σ: 0.61126658786336
+Average: 495.99887892029
 
