@@ -448,3 +448,14 @@ Showing nodes accounting for 2.31MB, 100% of 2.31MB total
          0     0%   100%     2.31MB   100%  main.main
          0     0%   100%     2.31MB   100%  runtime.main
 
+____________________________________________
+
+Average Time: 18.84652612 s
+
+Sum:	188.4652612
+Count:	10
+Median:	18.98217215
+Geometric Mean:	18.84012207082
+Largest:	19.3693575
+Smallest:	17.9538977
+Range:	1.4154598
