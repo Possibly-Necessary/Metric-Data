@@ -442,6 +442,24 @@ Showing nodes accounting for 5003.22kB, 100% of 5003.22kB total
      514kB 10.27%   100%      514kB 10.27%  main.initializePopulation
          0     0%   100%  5003.22kB   100%  runtime.main
 
+_________________________________
+
+Average Time: 14.72895674 s
+
+Sum:	147.2895674
+Count:	10
+Median:	14.9579478
+Geometric Mean:	14.712717832477
+Largest:	15.9378098
+Smallest:	13.5983362
+Range:	2.3394736
+
+____________________________________
+Fitness Value:
+
+Standard Deviation, σ: 3.0941180717542E-15
+Average: 0.39788735772974
+
 
 
 
