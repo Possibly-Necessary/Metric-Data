@@ -447,3 +447,15 @@ Showing nodes accounting for 4.32MB, 100% of 4.32MB total
     1.16MB 26.77%   100%     1.16MB 26.77%  runtime/trace.Start
          0     0%   100%     4.32MB   100%  main.main
          0     0%   100%     4.32MB   100%  runtime.main
+
+__________________________________________
+
+Average Time: 19.18129507 s
+
+Sum:	191.8129507
+Count:	10
+Median:	19.27160735
+Geometric Mean:	19.171678102306
+Largest:	20.2489164
+Smallest:	18.1524684
+Range:	2.096448
