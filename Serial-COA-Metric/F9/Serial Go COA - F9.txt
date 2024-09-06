@@ -407,9 +407,17 @@ Showing nodes accounting for 6.33MB, 100% of 6.33MB total
     1.16MB 18.27% 81.73%     1.16MB 18.27%  runtime/pprof.StartCPUProfile
     1.16MB 18.27%   100%     1.16MB 18.27%  runtime/trace.Start
          0     0%   100%     6.33MB   100%  runtime.main
+________________________________________________
 
+Average Time: 23.52869528 s
 
-
+Sum:	235.2869528
+Count:	10
+Median:	23.6689833
+Geometric Mean:	23.521613004682
+Largest:	24.3837521
+Smallest:	22.5286701
+Range:	1.855082
 
 
 
