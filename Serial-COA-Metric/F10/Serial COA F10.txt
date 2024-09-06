@@ -1,0 +1,438 @@
+Serial COA F10:
+
+---- 1st Run ----
+
+Logical CPUs: 8
+Memory info: 
+Total Physical Memory: 15.85 GB
+Final memory usage: 
+Alloc = 6 MiB   TotalAlloc = 6 MiB      Sys = 13 MiB    NumGC = 2
+4.440892098500626e-16
+19.7940139s
+
+Type: cpu
+Time: Sep 6, 2024 at 11:54am (+03)
+Duration: 20.04s, Total samples = 13.14s (65.57%)
+Entering interactive mode (type "help" for commands, "o" for options)
+(pprof) top
+Showing nodes accounting for 10040ms, 76.41% of 13140ms total
+Dropped 70 nodes (cum <= 65.70ms)
+Showing top 10 nodes out of 66
+      flat  flat%   sum%        cum   cum%
+    3060ms 23.29% 23.29%     3060ms 23.29%  math.archExp
+    1840ms 14.00% 37.29%     1980ms 15.07%  math.cos
+    1370ms 10.43% 47.72%     3530ms 26.86%  math.pow
+     660ms  5.02% 52.74%      660ms  5.02%  sync.(*Mutex).Unlock (inline)    
+     590ms  4.49% 57.23%     1400ms 10.65%  math/rand.(*lockedSource).Int63  
+     560ms  4.26% 61.49%    12720ms 96.80%  main.main
+     530ms  4.03% 65.53%      730ms  5.56%  math.ldexp
+     500ms  3.81% 69.33%      500ms  3.81%  math.sin
+     480ms  3.65% 72.98%      590ms  4.49%  math.frexp
+     450ms  3.42% 76.41%      520ms  3.96%  math.modf
+
+mem:
+
+Type: inuse_space
+Time: Sep 6, 2024 at 11:54am (+03)
+Entering interactive mode (type "help" for commands, "o" for options)
+(pprof) top
+Showing nodes accounting for 3.32MB, 100% of 3.32MB total
+      flat  flat%   sum%        cum   cum%
+    1.16MB 34.87% 34.87%     1.16MB 34.87%  runtime/pprof.StartCPUProfile
+    1.16MB 34.87% 69.73%     1.16MB 34.87%  runtime/trace.Start
+       1MB 30.27%   100%        1MB 30.27%  main.initializePopulation
+         0     0%   100%     3.32MB   100%  main.main
+         0     0%   100%     3.32MB   100%  runtime.main
+
+---- 2nd Run ----
+
+Logical CPUs: 8
+Memory info: 
+Total Physical Memory: 15.85 GB
+Final memory usage: 
+Alloc = 6 MiB   TotalAlloc = 6 MiB      Sys = 12 MiB    NumGC = 2
+4.440892098500626e-16
+19.5269739s
+
+Type: cpu
+Time: Sep 6, 2024 at 11:55am (+03)
+Duration: 19.85s, Total samples = 12.99s (65.43%)
+Entering interactive mode (type "help" for commands, "o" for options)
+(pprof) top
+Showing nodes accounting for 9940ms, 76.52% of 12990ms total
+Dropped 48 nodes (cum <= 64.95ms)
+Showing top 10 nodes out of 69
+      flat  flat%   sum%        cum   cum%
+    2640ms 20.32% 20.32%     2640ms 20.32%  math.archExp
+    1960ms 15.09% 35.41%     2100ms 16.17%  math.cos
+    1510ms 11.62% 47.04%     3580ms 27.56%  math.pow
+     680ms  5.23% 52.27%      680ms  5.23%  sync.(*Mutex).Unlock (inline)    
+     630ms  4.85% 57.12%    12550ms 96.61%  main.main
+     630ms  4.85% 61.97%     1470ms 11.32%  math/rand.(*lockedSource).Int63  
+     550ms  4.23% 66.20%      610ms  4.70%  math.modf
+     460ms  3.54% 69.75%      490ms  3.77%  math.sin
+     450ms  3.46% 73.21%      710ms  5.47%  math.ldexp
+     430ms  3.31% 76.52%      430ms  3.31%  math.IsInf (inline)
+
+mem:
+Type: inuse_space
+Time: Sep 6, 2024 at 11:55am (+03)
+Entering interactive mode (type "help" for commands, "o" for options)        
+(pprof) top
+Showing nodes accounting for 3.88MB, 100% of 3.88MB total
+      flat  flat%   sum%        cum   cum%
+    1.72MB 44.35% 44.35%     1.72MB 44.35%  runtime/trace.Start
+    1.16MB 29.79% 74.14%     1.16MB 29.79%  runtime/pprof.StartCPUProfile    
+       1MB 25.86%   100%        1MB 25.86%  main.initializePopulation        
+         0     0%   100%     3.88MB   100%  main.main
+         0     0%   100%     3.88MB   100%  runtime.main
+
+--- 3rd Run -----
+
+Logical CPUs: 8
+Memory info: 
+Total Physical Memory: 15.85 GB
+Final memory usage: 
+Alloc = 6 MiB   TotalAlloc = 6 MiB      Sys = 13 MiB    NumGC = 2
+4.440892098500626e-16
+19.6251264s
+
+Type: cpu
+Time: Sep 6, 2024 at 11:57am (+03)
+Duration: 19.86s, Total samples = 13.08s (65.88%)
+Entering interactive mode (type "help" for commands, "o" for options)
+(pprof) top
+Showing nodes accounting for 9780ms, 74.77% of 13080ms total
+Dropped 81 nodes (cum <= 65.40ms)
+Showing top 10 nodes out of 63
+      flat  flat%   sum%        cum   cum%
+    2700ms 20.64% 20.64%     2700ms 20.64%  math.archExp
+    2050ms 15.67% 36.31%     2120ms 16.21%  math.cos
+    1470ms 11.24% 47.55%     3620ms 27.68%  math.pow
+     670ms  5.12% 52.68%     1460ms 11.16%  math/rand.(*lockedSource).Int63  
+     640ms  4.89% 57.57%    12620ms 96.48%  main.main
+     580ms  4.43% 62.00%      580ms  4.43%  sync.(*Mutex).Unlock (inline)    
+     570ms  4.36% 66.36%      600ms  4.59%  math.modf
+     420ms  3.21% 69.57%      630ms  4.82%  math.ldexp
+     360ms  2.75% 72.32%      360ms  2.75%  math.sin
+     320ms  2.45% 74.77%      530ms  4.05%  math.frexp
+
+mem:
+Type: inuse_space
+Time: Sep 6, 2024 at 11:57am (+03)
+Entering interactive mode (type "help" for commands, "o" for options)        
+(pprof) top
+Showing nodes accounting for 2882.55kB, 100% of 2882.55kB total
+      flat  flat%   sum%        cum   cum%
+ 1184.27kB 41.08% 41.08%  1184.27kB 41.08%  runtime/pprof.StartCPUProfile    
+ 1184.27kB 41.08% 82.17%  1184.27kB 41.08%  runtime/trace.Start
+     514kB 17.83%   100%      514kB 17.83%  main.initializePopulation        
+         0     0%   100%  2882.55kB   100%  main.main
+         0     0%   100%  2882.55kB   100%  runtime.main
+
+---- 4th Run ----
+
+Logical CPUs: 8
+Memory info: 
+Total Physical Memory: 15.85 GB
+Final memory usage: 
+Alloc = 6 MiB   TotalAlloc = 6 MiB      Sys = 13 MiB    NumGC = 2
+4.440892098500626e-16
+19.2234009s
+
+Type: cpu
+Time: Sep 6, 2024 at 11:58am (+03)
+Duration: 19.52s, Total samples = 12.83s (65.73%)
+Entering interactive mode (type "help" for commands, "o" for options)
+(pprof) top
+Showing nodes accounting for 9790ms, 76.31% of 12830ms total
+Dropped 81 nodes (cum <= 64.15ms)
+Showing top 10 nodes out of 68
+      flat  flat%   sum%        cum   cum%
+    2690ms 20.97% 20.97%     2690ms 20.97%  math.archExp
+    1920ms 14.96% 35.93%     2010ms 15.67%  math.cos
+    1540ms 12.00% 47.93%     3440ms 26.81%  math.pow
+     740ms  5.77% 53.70%     1660ms 12.94%  math/rand.(*lockedSource).Int63  
+     740ms  5.77% 59.47%      740ms  5.77%  sync.(*Mutex).Unlock (inline)    
+     550ms  4.29% 63.76%    12360ms 96.34%  main.main
+     500ms  3.90% 67.65%      740ms  5.77%  math.ldexp
+     450ms  3.51% 71.16%      510ms  3.98%  math.modf
+     340ms  2.65% 73.81%      360ms  2.81%  math.sin
+     320ms  2.49% 76.31%     6430ms 50.12%  main.p_obj
+
+mem:
+Type: inuse_space
+Time: Sep 6, 2024 at 11:58am (+03)
+Entering interactive mode (type "help" for commands, "o" for options)        
+(pprof) top
+Showing nodes accounting for 3.32MB, 100% of 3.32MB total
+      flat  flat%   sum%        cum   cum%
+    1.16MB 34.87% 34.87%     1.16MB 34.87%  runtime/pprof.StartCPUProfile    
+    1.16MB 34.87% 69.73%     1.16MB 34.87%  runtime/trace.Start
+       1MB 30.27%   100%        1MB 30.27%  main.initializePopulation        
+         0     0%   100%     3.32MB   100%  main.main
+         0     0%   100%     3.32MB   100%  runtime.main
+
+--- 5th Run ----
+
+Logical CPUs: 8
+Memory info: 
+Total Physical Memory: 15.85 GB
+Final memory usage: 
+Alloc = 6 MiB   TotalAlloc = 6 MiB      Sys = 13 MiB    NumGC = 2
+4.440892098500626e-16
+18.6698954s
+
+Type: cpu
+Time: Sep 6, 2024 at 11:59am (+03)
+Duration: 18.97s, Total samples = 12.36s (65.16%)
+Entering interactive mode (type "help" for commands, "o" for options)
+(pprof) top
+Showing nodes accounting for 9490ms, 76.78% of 12360ms total
+Dropped 74 nodes (cum <= 61.80ms)
+Showing top 10 nodes out of 57
+      flat  flat%   sum%        cum   cum%
+    2730ms 22.09% 22.09%     2730ms 22.09%  math.archExp
+    1800ms 14.56% 36.65%     1890ms 15.29%  math.cos
+    1310ms 10.60% 47.25%     3300ms 26.70%  math.pow
+     740ms  5.99% 53.24%     1510ms 12.22%  math/rand.(*lockedSource).Int63  
+     620ms  5.02% 58.25%      620ms  5.02%  sync.(*Mutex).Unlock (inline)    
+     580ms  4.69% 62.94%      640ms  5.18%  math.modf
+     530ms  4.29% 67.23%    12010ms 97.17%  main.main
+     430ms  3.48% 70.71%      430ms  3.48%  math.sin
+     380ms  3.07% 73.79%      540ms  4.37%  math.frexp
+     370ms  2.99% 76.78%      650ms  5.26%  math.ldexp
+
+mem:
+
+Type: inuse_space
+Time: Sep 6, 2024 at 11:59am (+03)
+Entering interactive mode (type "help" for commands, "o" for options)
+(pprof) top
+Showing nodes accounting for 3.32MB, 100% of 3.32MB total
+      flat  flat%   sum%        cum   cum%
+    1.16MB 34.87% 34.87%     1.16MB 34.87%  runtime/pprof.StartCPUProfile
+    1.16MB 34.87% 69.73%     1.16MB 34.87%  runtime/trace.Start
+       1MB 30.27%   100%        1MB 30.27%  main.initializePopulation
+         0     0%   100%     3.32MB   100%  main.main
+         0     0%   100%     3.32MB   100%  runtime.main
+
+---- 6th Run -----
+
+Logical CPUs: 8
+Memory info: 
+Total Physical Memory: 15.85 GB
+Final memory usage: 
+Alloc = 6 MiB   TotalAlloc = 6 MiB      Sys = 17 MiB    NumGC = 2
+4.440892098500626e-16
+19.5021888s
+
+Type: cpu
+Time: Sep 6, 2024 at 12:01pm (+03)
+Duration: 19.75s, Total samples = 12.95s (65.56%)
+Entering interactive mode (type "help" for commands, "o" for options)
+(pprof) top
+Showing nodes accounting for 10060ms, 77.68% of 12950ms total
+Dropped 76 nodes (cum <= 64.75ms)
+Showing top 10 nodes out of 65
+      flat  flat%   sum%        cum   cum%
+    2810ms 21.70% 21.70%     2810ms 21.70%  math.archExp
+    1700ms 13.13% 34.83%     1790ms 13.82%  math.cos
+    1670ms 12.90% 47.72%     3740ms 28.88%  math.pow
+     780ms  6.02% 53.75%      780ms  6.02%  sync.(*Mutex).Unlock (inline)    
+     700ms  5.41% 59.15%     1570ms 12.12%  math/rand.(*lockedSource).Int63  
+     620ms  4.79% 63.94%      660ms  5.10%  math.modf
+     550ms  4.25% 68.19%    12510ms 96.60%  main.main
+     510ms  3.94% 72.12%      640ms  4.94%  math.ldexp
+     370ms  2.86% 74.98%      370ms  2.86%  math.IsInf (inline)
+     350ms  2.70% 77.68%      390ms  3.01%  math.sin
+
+mem:
+Type: inuse_space
+Time: Sep 6, 2024 at 12:01pm (+03)
+Entering interactive mode (type "help" for commands, "o" for options)        
+(pprof) top
+Showing nodes accounting for 2882.55kB, 100% of 2882.55kB total
+      flat  flat%   sum%        cum   cum%
+ 1184.27kB 41.08% 41.08%  1184.27kB 41.08%  runtime/pprof.StartCPUProfile    
+ 1184.27kB 41.08% 82.17%  1184.27kB 41.08%  runtime/trace.Start
+     514kB 17.83%   100%      514kB 17.83%  main.initializePopulation        
+         0     0%   100%  2882.55kB   100%  main.main
+         0     0%   100%  2882.55kB   100%  runtime.main
+
+--- 7th Run ----
+
+Logical CPUs: 8
+Memory info: 
+Total Physical Memory: 15.85 GB
+Final memory usage: 
+Alloc = 6 MiB   TotalAlloc = 6 MiB      Sys = 17 MiB    NumGC = 2
+4.440892098500626e-16
+19.6426981s
+
+Type: cpu
+Time: Sep 6, 2024 at 12:02pm (+03)
+Duration: 19.92s, Total samples = 13.13s (65.90%)
+Entering interactive mode (type "help" for commands, "o" for options)
+(pprof) top
+Showing nodes accounting for 9980ms, 76.01% of 13130ms total
+Dropped 81 nodes (cum <= 65.65ms)
+Showing top 10 nodes out of 69
+      flat  flat%   sum%        cum   cum%
+    3170ms 24.14% 24.14%     3170ms 24.14%  math.archExp
+    1920ms 14.62% 38.77%     2090ms 15.92%  math.cos
+    1390ms 10.59% 49.35%     3430ms 26.12%  math.pow
+     690ms  5.26% 54.61%      690ms  5.26%  sync.(*Mutex).Unlock (inline)    
+     650ms  4.95% 59.56%    12640ms 96.27%  main.main
+     560ms  4.27% 63.82%     1380ms 10.51%  math/rand.(*lockedSource).Int63  
+     460ms  3.50% 67.33%      520ms  3.96%  math.modf
+     420ms  3.20% 70.53%      420ms  3.20%  math.IsInf (inline)
+     400ms  3.05% 73.57%      610ms  4.65%  math.ldexp
+     320ms  2.44% 76.01%     6910ms 52.63%  main.p_obj
+
+mem:
+
+Type: inuse_space
+Time: Sep 6, 2024 at 12:02pm (+03)
+Entering interactive mode (type "help" for commands, "o" for options)
+(pprof) top
+Showing nodes accounting for 2882.55kB, 100% of 2882.55kB total
+      flat  flat%   sum%        cum   cum%
+ 1184.27kB 41.08% 41.08%  1184.27kB 41.08%  runtime/pprof.StartCPUProfile
+ 1184.27kB 41.08% 82.17%  1184.27kB 41.08%  runtime/trace.Start
+     514kB 17.83%   100%      514kB 17.83%  main.initializePopulation
+         0     0%   100%  2882.55kB   100%  main.main
+         0     0%   100%  2882.55kB   100%  runtime.main
+
+---- 8th Run ---
+
+Logical CPUs: 8
+Memory info: 
+Total Physical Memory: 15.85 GB
+Final memory usage: 
+Alloc = 6 MiB   TotalAlloc = 6 MiB      Sys = 16 MiB    NumGC = 1
+4.440892098500626e-16
+19.6239717s
+
+Type: cpu
+Time: Sep 6, 2024 at 12:04pm (+03)
+Duration: 19.96s, Total samples = 12.96s (64.93%)
+Entering interactive mode (type "help" for commands, "o" for options)
+(pprof) top
+Showing nodes accounting for 10010ms, 77.24% of 12960ms total
+Dropped 51 nodes (cum <= 64.80ms)
+Showing top 10 nodes out of 59
+      flat  flat%   sum%        cum   cum%
+    2500ms 19.29% 19.29%     2500ms 19.29%  math.archExp
+    2050ms 15.82% 35.11%     2130ms 16.44%  math.cos
+    1480ms 11.42% 46.53%     3820ms 29.48%  math.pow
+     740ms  5.71% 52.24%    12610ms 97.30%  main.main
+     730ms  5.63% 57.87%      780ms  6.02%  math.modf
+     580ms  4.48% 62.35%      850ms  6.56%  math.ldexp
+     580ms  4.48% 66.82%     1210ms  9.34%  math/rand.(*lockedSource).Int63  
+     520ms  4.01% 70.83%      520ms  4.01%  sync.(*Mutex).Unlock (inline)    
+     480ms  3.70% 74.54%      490ms  3.78%  math.sin
+     350ms  2.70% 77.24%      350ms  2.70%  math.IsInf (inline)
+
+mem:
+Type: inuse_space
+Time: Sep 6, 2024 at 12:04pm (+03)
+Entering interactive mode (type "help" for commands, "o" for options)
+(pprof) top
+Showing nodes accounting for 3.32MB, 100% of 3.32MB total
+      flat  flat%   sum%        cum   cum%
+    1.16MB 34.87% 34.87%     1.16MB 34.87%  runtime/pprof.StartCPUProfile
+    1.16MB 34.87% 69.73%     1.16MB 34.87%  runtime/trace.Start
+       1MB 30.27%   100%        1MB 30.27%  main.initializePopulation
+         0     0%   100%     3.32MB   100%  main.main
+         0     0%   100%     3.32MB   100%  runtime.main
+
+--- 9th Run ---
+
+Logical CPUs: 8
+Memory info: 
+Total Physical Memory: 15.85 GB
+Final memory usage: 
+Alloc = 6 MiB   TotalAlloc = 6 MiB      Sys = 13 MiB    NumGC = 2
+4.440892098500626e-16
+20.0246534s
+
+Type: cpu
+Time: Sep 6, 2024 at 12:05pm (+03)
+Duration: 20.27s, Total samples = 13.33s (65.76%)
+Entering interactive mode (type "help" for commands, "o" for options)
+(pprof) top
+Showing nodes accounting for 10350ms, 77.64% of 13330ms total
+Dropped 65 nodes (cum <= 66.65ms)
+Showing top 10 nodes out of 66
+      flat  flat%   sum%        cum   cum%
+    3130ms 23.48% 23.48%     3130ms 23.48%  math.archExp
+    1890ms 14.18% 37.66%     1990ms 14.93%  math.cos
+    1450ms 10.88% 48.54%     3560ms 26.71%  math.pow
+     720ms  5.40% 53.94%     1410ms 10.58%  math/rand.(*lockedSource).Int63  
+     650ms  4.88% 58.81%    12880ms 96.62%  main.main
+     630ms  4.73% 63.54%      660ms  4.95%  math.modf
+     580ms  4.35% 67.89%      580ms  4.35%  sync.(*Mutex).Unlock (inline)    
+     540ms  4.05% 71.94%      720ms  5.40%  math.ldexp
+     420ms  3.15% 75.09%      430ms  3.23%  math.sin
+     340ms  2.55% 77.64%     7040ms 52.81%  main.p_obj
+
+mem:
+Type: inuse_space
+Time: Sep 6, 2024 at 12:05pm (+03)
+Entering interactive mode (type "help" for commands, "o" for options)        
+(pprof) top
+Showing nodes accounting for 3461.21kB, 100% of 3461.21kB total
+      flat  flat%   sum%        cum   cum%
+ 1762.94kB 50.93% 50.93%  1762.94kB 50.93%  runtime/pprof.StartCPUProfile    
+ 1184.27kB 34.22% 85.15%  1184.27kB 34.22%  runtime/trace.Start
+     514kB 14.85%   100%      514kB 14.85%  main.initializePopulation        
+         0     0%   100%  3461.21kB   100%  main.main
+         0     0%   100%  3461.21kB   100%  runtime.main
+
+----- 10th Run -----
+
+Logical CPUs: 8
+Memory info: 
+Total Physical Memory: 15.85 GB
+Final memory usage: 
+Alloc = 6 MiB   TotalAlloc = 6 MiB      Sys = 17 MiB    NumGC = 2
+4.440892098500626e-16
+18.8675342s
+
+
+Type: cpu
+Time: Sep 6, 2024 at 12:07pm (+03)
+Duration: 19.16s, Total samples = 12.54s (65.44%)
+Entering interactive mode (type "help" for commands, "o" for options)
+(pprof) top
+Showing nodes accounting for 9610ms, 76.63% of 12540ms total
+Dropped 75 nodes (cum <= 62.70ms)
+Showing top 10 nodes out of 60
+      flat  flat%   sum%        cum   cum%
+    2860ms 22.81% 22.81%     2860ms 22.81%  math.archExp
+    1710ms 13.64% 36.44%     1840ms 14.67%  math.cos
+    1500ms 11.96% 48.41%     3640ms 29.03%  math.pow
+     630ms  5.02% 53.43%      630ms  5.02%  sync.(*Mutex).Unlock (inline)    
+     620ms  4.94% 58.37%      840ms  6.70%  math.ldexp
+     600ms  4.78% 63.16%    12150ms 96.89%  main.main
+     570ms  4.55% 67.70%     1300ms 10.37%  math/rand.(*lockedSource).Int63  
+     490ms  3.91% 71.61%      590ms  4.70%  math.modf
+     320ms  2.55% 74.16%      320ms  2.55%  math.sin
+     310ms  2.47% 76.63%      310ms  2.47%  math.IsInf (inline)
+
+mem:
+
+Type: inuse_space
+Time: Sep 6, 2024 at 12:07pm (+03)
+Entering interactive mode (type "help" for commands, "o" for options)
+(pprof) top
+Showing nodes accounting for 3.82MB, 100% of 3.82MB total
+      flat  flat%   sum%        cum   cum%
+    1.51MB 39.43% 39.43%     1.51MB 39.43%  main.initializePopulation
+    1.16MB 30.28% 69.72%     1.16MB 30.28%  runtime/pprof.StartCPUProfile
+    1.16MB 30.28%   100%     1.16MB 30.28%  runtime/trace.Start
+         0     0%   100%     3.82MB   100%  main.main
+         0     0%   100%     3.82MB   100%  runtime.main
+
+
