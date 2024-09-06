@@ -438,4 +438,14 @@ Showing nodes accounting for 1698.28kB, 100% of 1698.28kB total
          0     0%   100%  1698.28kB   100%  main.main
          0     0%   100%  1698.28kB   100%  runtime.main
 
+__________________________
 
+Average Time: 18.10648996 s
+
+Sum:	181.0648996
+Count:	10
+Median:	17.99382595
+Geometric Mean:	18.097658828134
+Largest:	19.4934805
+Smallest:	17.3146223
+Range:	2.1788582
