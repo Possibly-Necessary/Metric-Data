@@ -1,0 +1,14 @@
+data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2
+StatusCode,Complete,Complete,Complete
+Messages,,,
+Full label,eu-north-1:AWS/Lambda FunctionName:Crayfish ConcurrentExecutions Maximum 60,eu-north-1:AWS/Lambda FunctionName:aggrCrayfish ConcurrentExecutions Maximum 60,eu-north-1:AWS/Lambda FunctionName:initCrayfishPop ConcurrentExecutions Maximum 60
+Label,ConcurrentExecutions,ConcurrentExecutions,ConcurrentExecutions
+2024/09/04 20:48:00,50,1,1
+2024/09/04 20:49:00,50,1,1
+2024/09/04 20:50:00,50,1,1
+2024/09/04 20:51:00,50,1,1
+2024/09/04 20:52:00,50,1,1
+2024/09/04 20:53:00,50,1,1
+2024/09/04 20:54:00,50,,1
+2024/09/04 20:55:00,50,1,1
+2024/09/04 20:56:00,50,1,1
