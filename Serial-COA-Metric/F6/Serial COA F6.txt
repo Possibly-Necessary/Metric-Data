@@ -439,4 +439,21 @@ Showing nodes accounting for 3.16MB, 100% of 3.16MB total
     1.16MB 36.55%   100%     1.16MB 36.55%  runtime/pprof.StartCPUProfile
          0     0%   100%     3.16MB   100%  main.main
          0     0%   100%     3.16MB   100%  runtime.main
+____________________________
+
+Average Time: 19.76077737 s
+
+Sum:	197.6077737
+Count:	10
+Median:	19.56829035
+Geometric Mean:	19.747091629035
+Largest:	21.4830673
+Smallest:	18.9002636
+Range:	2.5828037
+______________________________
+
+Fitness Value:
+
+Average: 67.941407029368
+Standard Deviation, σ: 3.385671984374
 
