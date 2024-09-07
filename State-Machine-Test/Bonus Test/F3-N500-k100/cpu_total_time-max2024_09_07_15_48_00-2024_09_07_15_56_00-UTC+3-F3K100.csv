@@ -1,0 +1,14 @@
+data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2
+StatusCode,Complete,Complete,Complete
+Messages,,,
+Full label,eu-north-1:LambdaInsights function_name:Crayfish cpu_total_time Maximum 60,eu-north-1:LambdaInsights function_name:aggrCrayfish cpu_total_time Maximum 60,eu-north-1:LambdaInsights function_name:initCrayfishPop cpu_total_time Maximum 60
+Label,cpu_total_time,cpu_total_time,cpu_total_time
+2024/09/07 15:48:00,1040,60,270
+2024/09/07 15:49:00,960,20,150
+2024/09/07 15:50:00,1000,40,140
+2024/09/07 15:51:00,1030,20,150
+2024/09/07 15:52:00,990,60,150
+2024/09/07 15:53:00,1010,50,100
+2024/09/07 15:54:00,1000,20,160
+2024/09/07 15:55:00,1020,30,140
+2024/09/07 15:56:00,1320,80,120
