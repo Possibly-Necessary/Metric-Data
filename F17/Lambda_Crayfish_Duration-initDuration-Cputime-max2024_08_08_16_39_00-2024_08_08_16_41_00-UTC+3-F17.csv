@@ -1,10 +1,10 @@
 data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2
-StatusCode,Complete,Complete,Complete
-Messages,,,
-Full label,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Duration Maximum 30,eu-north-1:LambdaInsights function_name:awsCrayfish cpu_total_time Maximum 30,eu-north-1:LambdaInsights function_name:awsCrayfish init_duration Maximum 30
-Label,Duration,cpu_total_time,init_duration
-2024/08/08 16:39:00,1973.47,1770,271
-2024/08/08 16:39:30,,,
-2024/08/08 16:40:00,1980.11,1830,226
-2024/08/08 16:40:30,,,
-2024/08/08 16:41:00,1654.14,1750,
+StatusCode,Complete,Complete,Complete,
+Messages,,,,
+Full label,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Duration Maximum 30,eu-north-1:LambdaInsights function_name:awsCrayfish cpu_total_time Maximum 30,eu-north-1:LambdaInsights function_name:awsCrayfish init_duration Maximum 30,
+Label,Duration,cpu_total_time,init_duration,
+2024/08/08 16:39:00,1973.47,1770,271,
+2024/08/08 16:39:30,,,,
+2024/08/08 16:40:00,1980.11,1830,226,
+2024/08/08 16:40:30,,,,
+2024/08/08 16:41:00,1654.14,1750,,
