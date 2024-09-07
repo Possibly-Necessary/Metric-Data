@@ -430,6 +430,25 @@ Entering interactive mode (type "help" for commands, "o" for options)
 Showing nodes accounting for 2882.55kB, 100% of 2882.55kB total
       flat  flat%   sum%        cum   cum%
  1184.27kB 41.08% 41.08%  1184.27kB 41.08%  runtime/pprof.StartCPUProfile
+
+_______________________
+
+Average Time: 21.0024853 s
+
+Sum:	210.024853
+Count:	10
+Median:	21.01927725
+Geometric Mean:	21.001300234991
+Largest:	21.4465753
+Smallest:	20.5819129
+Range:	0.8646624
+
+_______________________
+
+Fitness Value:
+
+Average: -84324.910531111
+Standard Deviation, σ: 10209.18521491
  1184.27kB 41.08% 82.17%  1184.27kB 41.08%  runtime/trace.Start
      514kB 17.83%   100%      514kB 17.83%  main.initializePopulation
          0     0%   100%  2882.55kB   100%  main.main
