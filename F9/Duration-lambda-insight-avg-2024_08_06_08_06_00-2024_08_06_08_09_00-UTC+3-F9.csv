@@ -1,6 +1,6 @@
 data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0
 StatusCode,Complete,
-Messages,
+Messages,,
 Full label,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Duration Average 60,
 Label,Duration,
 2024/08/06 08:06:00,2251.5744000000004,
