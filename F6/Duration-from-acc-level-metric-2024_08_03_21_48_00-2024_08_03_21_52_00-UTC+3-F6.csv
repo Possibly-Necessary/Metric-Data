@@ -1,7 +1,7 @@
 data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2
 StatusCode,Complete,Complete,Complete,
 Messages,,,,
-Full label,eu-north-1:AWS/Lambda Duration Minimum 60,eu-north-1:AWS/Lambda Duration Average 1,eu-north-1:AWS/Lambda Duration Maximum 1
+Full label,eu-north-1:AWS/Lambda Duration Minimum 60,eu-north-1:AWS/Lambda Duration Average 1,eu-north-1:AWS/Lambda Duration Maximum 1,
 Label,Duration,Duration,Duration,
 2024/08/03 21:48:00,1021.61,1840.3638461538465,2668.33,
 2024/08/03 21:48:01,,,,
