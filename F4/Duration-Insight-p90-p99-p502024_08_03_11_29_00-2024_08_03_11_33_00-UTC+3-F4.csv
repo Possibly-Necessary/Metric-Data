@@ -1,10 +1,10 @@
 data:text/csv;charset=utf-8,Id,expr1m0,expr2m0,expr3m0
-StatusCode,Complete,Complete,Complete
-Messages,,,
-Full label,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Duration p50 60,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Duration p90 60,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Duration Maximum 60
-Label,Duration,Duration,Duration
-2024/08/03 11:29:00,2048.4002145854784,2276.6280540579774,2434.68
-2024/08/03 11:30:00,1138.046273006686,2124.722290456565,2166.99
-2024/08/03 11:31:00,1096.636673832878,2103.7378798759564,2146.22
-2024/08/03 11:32:00,1095.9110762194819,2104.9270247443005,2137.17
-2024/08/03 11:33:00,1045.6918196704135,2096.8700053650896,2153.67
+StatusCode,Complete,Complete,Complete,
+Messages,,,,
+Full label,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Duration p50 60,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Duration p90 60,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Duration Maximum 60,
+Label,Duration,Duration,Duration,
+2024/08/03 11:29:00,2048.4002145854784,2276.6280540579774,2434.68,
+2024/08/03 11:30:00,1138.046273006686,2124.722290456565,2166.99,
+2024/08/03 11:31:00,1096.636673832878,2103.7378798759564,2146.22,
+2024/08/03 11:32:00,1095.9110762194819,2104.9270247443005,2137.17,
+2024/08/03 11:33:00,1045.6918196704135,2096.8700053650896,2153.67,
