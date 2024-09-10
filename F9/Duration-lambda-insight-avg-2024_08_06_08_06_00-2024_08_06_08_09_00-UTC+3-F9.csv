@@ -1,9 +1,9 @@
 data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0
-StatusCode,Complete
+StatusCode,Complete,
 Messages,
-Full label,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Duration Average 60
-Label,Duration
-2024/08/06 08:06:00,2251.5744000000004
-2024/08/06 08:07:00,1882.7383718604647
-2024/08/06 08:08:00,1812.3586659999999
-2024/08/06 08:09:00,1712.8935480645162
+Full label,eu-north-1:AWS/Lambda FunctionName:awsCrayfish Duration Average 60,
+Label,Duration,
+2024/08/06 08:06:00,2251.5744000000004,
+2024/08/06 08:07:00,1882.7383718604647,
+2024/08/06 08:08:00,1812.3586659999999,
+2024/08/06 08:09:00,1712.8935480645162,
