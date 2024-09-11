@@ -1,9 +1,9 @@
 data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2
-StatusCode,Complete,Complete,Complete
-Messages,,,
-Full label,eu-north-1:AWS/Lambda Duration Minimum 60,eu-north-1:AWS/Lambda Duration Average 60,eu-north-1:AWS/Lambda Duration Maximum 60
-Label,Duration,Duration,Duration
-2024/08/06 08:06:00,1172.06,2251.5744000000004,3150.27
-2024/08/06 08:07:00,1277.26,1882.7383718604647,2775.71
-2024/08/06 08:08:00,1276.37,1812.3586659999999,2802.92
-2024/08/06 08:09:00,1139.67,1712.8935480645162,2822.15
+StatusCode,Complete,Complete,Complete,
+Messages,,,,
+Full label,eu-north-1:AWS/Lambda Duration Minimum 60,eu-north-1:AWS/Lambda Duration Average 60,eu-north-1:AWS/Lambda Duration Maximum 60,
+Label,Duration,Duration,Duration,
+2024/08/06 08:06:00,1172.06,2251.5744000000004,3150.27,
+2024/08/06 08:07:00,1277.26,1882.7383718604647,2775.71,
+2024/08/06 08:08:00,1276.37,1812.3586659999999,2802.92,
+2024/08/06 08:09:00,1139.67,1712.8935480645162,2822.15,
