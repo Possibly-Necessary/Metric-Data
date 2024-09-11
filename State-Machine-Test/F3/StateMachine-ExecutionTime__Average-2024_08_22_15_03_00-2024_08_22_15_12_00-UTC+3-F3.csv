@@ -1,15 +1,15 @@
 data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1
-StatusCode,Complete,Complete
-Messages,,
-Full label,eu-north-1:AWS/States StateMachineArn:arn:aws:states:eu-north-1:382277151775:stateMachine:COA-StateMachine ExecutionTime Average 60,eu-north-1:AWS/States StateMachineArn:arn:aws:states:eu-north-1:382277151775:stateMachine:COA-StateMachine/Map ExecutionTime Average 60
-Label,ExecutionTime,ExecutionTime
-2024/08/22 15:03:00,19914,5129.1
-2024/08/22 15:04:00,11402,4593.85
-2024/08/22 15:05:00,10713,4522.2
-2024/08/22 15:06:00,18922,5064.2
-2024/08/22 15:07:00,16079,4603
-2024/08/22 15:08:00,11657,4727.35
-2024/08/22 15:09:00,13341,4549.7
-2024/08/22 15:10:00,10304,4530.225
-2024/08/22 15:11:00,,4610.85
-2024/08/22 15:12:00,15301,
+StatusCode,Complete,Complete,
+Messages,,,
+Full label,eu-north-1:AWS/States StateMachineArn:arn:aws:states:eu-north-1:382277151775:stateMachine:COA-StateMachine ExecutionTime Average 60,eu-north-1:AWS/States StateMachineArn:arn:aws:states:eu-north-1:382277151775:stateMachine:COA-StateMachine/Map ExecutionTime Average 60,
+Label,ExecutionTime,ExecutionTime,
+2024/08/22 15:03:00,19914,5129.1,
+2024/08/22 15:04:00,11402,4593.85,
+2024/08/22 15:05:00,10713,4522.2,
+2024/08/22 15:06:00,18922,5064.2,
+2024/08/22 15:07:00,16079,4603,
+2024/08/22 15:08:00,11657,4727.35,
+2024/08/22 15:09:00,13341,4549.7,
+2024/08/22 15:10:00,10304,4530.225,
+2024/08/22 15:11:00,,4610.85,
+2024/08/22 15:12:00,15301,,
