@@ -1,7 +1,7 @@
 data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2
-StatusCode,Complete,Complete,Complete
-Messages,,,
-Full label,eu-north-1:LambdaInsights function_name:aggrCrayfish init_duration Average 60,eu-north-1:LambdaInsights function_name:Crayfish init_duration Average 60,eu-north-1:LambdaInsights function_name:initCrayfishPop init_duration Average 60
-Label,init_duration,init_duration,init_duration
-2024/08/27 21:07:00,,143.3,176
-2024/08/27 21:08:00,139,,
+StatusCode,Complete,Complete,Complete,
+Messages,,,,
+Full label,eu-north-1:LambdaInsights function_name:aggrCrayfish init_duration Average 60,eu-north-1:LambdaInsights function_name:Crayfish init_duration Average 60,eu-north-1:LambdaInsights function_name:initCrayfishPop init_duration Average 60,
+Label,init_duration,init_duration,init_duration,
+2024/08/27 21:07:00,,143.3,176,
+2024/08/27 21:08:00,139,,,
