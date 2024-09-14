@@ -1,11 +1,11 @@
 data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_3
-StatusCode,Complete,Complete,Complete
-Messages,,,
-Full label,eu-north-1:AWS/Lambda FunctionName:Crayfish Duration Average 60,eu-north-1:AWS/Lambda FunctionName:aggrCrayfish Duration Average 60,eu-north-1:AWS/Lambda FunctionName:initCrayfishPop Duration Average 60
-Label,Duration,Duration,Duration
-2024/08/29 21:21:00,877.729,74.875,384.26
-2024/08/29 21:22:00,806.4752499999997,2.165,268.005
-2024/08/29 21:23:00,806.4329997500005,2.09,265.14
-2024/08/29 21:24:00,801.8245,2.075,240.41
-2024/08/29 21:25:00,805.8512499999999,2.055,286.21
-2024/08/29 21:26:00,810.3045,1.48,304.57
+StatusCode,Complete,Complete,Complete,
+Messages,,,,
+Full label,eu-north-1:AWS/Lambda FunctionName:Crayfish Duration Average 60,eu-north-1:AWS/Lambda FunctionName:aggrCrayfish Duration Average 60,eu-north-1:AWS/Lambda FunctionName:initCrayfishPop Duration Average 60,
+Label,Duration,Duration,Duration,
+2024/08/29 21:21:00,877.729,74.875,384.26,
+2024/08/29 21:22:00,806.4752499999997,2.165,268.005,
+2024/08/29 21:23:00,806.4329997500005,2.09,265.14,
+2024/08/29 21:24:00,801.8245,2.075,240.41,
+2024/08/29 21:25:00,805.8512499999999,2.055,286.21,
+2024/08/29 21:26:00,810.3045,1.48,304.57,
