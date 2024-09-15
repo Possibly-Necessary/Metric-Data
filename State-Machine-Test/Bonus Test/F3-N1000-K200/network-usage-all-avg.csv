@@ -1,0 +1,15 @@
+data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2,metric_alias_metrics_view_graph_3,metric_alias_metrics_view_graph_4,metric_alias_metrics_view_graph_5,metric_alias_metrics_view_graph_6,metric_alias_metrics_view_graph_7,metric_alias_metrics_view_graph_8
+StatusCode,Complete,Complete,Complete,Complete,Complete,Complete,Complete,Complete,Complete
+Messages,,,,,,,,,
+Full label,eu-north-1:LambdaInsights function_name:aggrCrayfish tx_bytes Average 60,eu-north-1:LambdaInsights function_name:aggrCrayfish rx_bytes Average 60,eu-north-1:LambdaInsights function_name:aggrCrayfish total_network Average 60,eu-north-1:LambdaInsights function_name:Crayfish rx_bytes Average 60,eu-north-1:LambdaInsights function_name:Crayfish tx_bytes Average 60,eu-north-1:LambdaInsights function_name:Crayfish total_network Average 60,eu-north-1:LambdaInsights function_name:initCrayfishPop total_network Average 60,eu-north-1:LambdaInsights function_name:initCrayfishPop rx_bytes Average 60,eu-north-1:LambdaInsights function_name:initCrayfishPop tx_bytes Average 60
+Label,tx_bytes,rx_bytes,total_network,rx_bytes,tx_bytes,total_network,total_network,rx_bytes,tx_bytes
+2024/09/15 12:02:00,42,42,84,5662.365,4018.325,9680.69,9434666,45398,9389268
+2024/09/15 12:03:00,0,0,0,5428.445,6008.3,11436.745,9443149,55283,9387866
+2024/09/15 12:04:00,514,922,1436,3985.65,10514.715,14500.365,9461085,60134,9400951
+2024/09/15 12:05:00,492,158,650,3948.47,6048.315,9996.785,9427880,40380,9387500
+2024/09/15 12:06:00,744,685,1429,4811.255,5771.34,10582.595,9445769,53376,9392393
+2024/09/15 12:07:00,592,737,1329,4617.025,12312.26,16929.285,9469746,62818,9406928
+2024/09/15 12:08:00,1454,929,2383,4153.22,5382.34,9535.56,9434804,48968,9385836
+2024/09/15 12:09:00,670,685,1355,4047.53,11548.69,15596.22,9463087,53606,9409481
+2024/09/15 12:10:00,,,,3871.41,10329.325,14200.735,9448590,53936,9394654
+2024/09/15 12:11:00,540,594,1134,4069.04,5721.98,9791.02,9448116,58540,9389576
