@@ -1,11 +1,11 @@
 data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2
-StatusCode,Complete,Complete,Complete
-Messages,,,
-Full label,eu-north-1:LambdaInsights function_name:Crayfish cpu_total_time Average 60,eu-north-1:LambdaInsights function_name:initCrayfishPop cpu_total_time Average 60,eu-north-1:LambdaInsights function_name:aggrCrayfish cpu_total_time Average 60
-Label,cpu_total_time,cpu_total_time,cpu_total_time
-2024/08/24 11:21:00,1048.75,200,40
-2024/08/24 11:22:00,1036,125,40
-2024/08/24 11:23:00,1031,125,20
-2024/08/24 11:24:00,1016,120,30
-2024/08/24 11:25:00,1036,130,40
-2024/08/24 11:26:00,1163.5,180,120
+StatusCode,Complete,Complete,Complete, 
+Messages,,,, 
+Full label,eu-north-1:LambdaInsights function_name:Crayfish cpu_total_time Average 60,eu-north-1:LambdaInsights function_name:initCrayfishPop cpu_total_time Average 60,eu-north-1:LambdaInsights function_name:aggrCrayfish cpu_total_time Average 60,
+Label,cpu_total_time,cpu_total_time,cpu_total_time,
+2024/08/24 11:21:00,1048.75,200,40,
+2024/08/24 11:22:00,1036,125,40,
+2024/08/24 11:23:00,1031,125,20,
+2024/08/24 11:24:00,1016,120,30,
+2024/08/24 11:25:00,1036,130,40,
+2024/08/24 11:26:00,1163.5,180,120,
