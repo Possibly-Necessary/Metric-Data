@@ -1,13 +1,13 @@
 data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2
-StatusCode,Complete,Complete,Complete
-Messages,,,
-Full label,eu-north-1:LambdaInsights function_name:aggrCrayfish cpu_total_time Average 60,eu-north-1:LambdaInsights function_name:Crayfish cpu_total_time Average 60,eu-north-1:LambdaInsights function_name:initCrayfishPop cpu_total_time Average 60
-Label,cpu_total_time,cpu_total_time,cpu_total_time
-2024/08/27 15:09:00,90,1230.5,250
-2024/08/27 15:10:00,20,1173,115
-2024/08/27 15:11:00,50,1191,100
-2024/08/27 15:12:00,45,1184.75,140
-2024/08/27 15:13:00,70,1207.5,150
-2024/08/27 15:14:00,10,1178,100
-2024/08/27 15:15:00,60,1217,140
-2024/08/27 15:16:00,30,1223,
+StatusCode,Complete,Complete,Complete,
+Messages,,,,
+Full label,eu-north-1:LambdaInsights function_name:aggrCrayfish cpu_total_time Average 60,eu-north-1:LambdaInsights function_name:Crayfish cpu_total_time Average 60,eu-north-1:LambdaInsights function_name:initCrayfishPop cpu_total_time Average 60,
+Label,cpu_total_time,cpu_total_time,cpu_total_time,
+2024/08/27 15:09:00,90,1230.5,250,
+2024/08/27 15:10:00,20,1173,115,
+2024/08/27 15:11:00,50,1191,100,
+2024/08/27 15:12:00,45,1184.75,140,
+2024/08/27 15:13:00,70,1207.5,150,
+2024/08/27 15:14:00,10,1178,100,
+2024/08/27 15:15:00,60,1217,140,
+2024/08/27 15:16:00,30,1223,,
