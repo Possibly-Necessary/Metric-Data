@@ -1,6 +1,6 @@
 data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2
 StatusCode,Complete,Complete,Complete,
-Messages,,,,
+Messages,,,
 Full label,eu-north-1:AWS/Lambda FunctionName:Crayfish Invocations Sum 60,eu-north-1:AWS/Lambda FunctionName:aggrCrayfish Invocations Sum 60,eu-north-1:AWS/Lambda FunctionName:initCrayfishPop Invocations Sum 60
 Label,Invocations,Invocations,Invocations,
 2024/09/07 15:48:00,100,1,1,
