@@ -4,8 +4,8 @@ Messages,,,,
 Full label,eu-north-1:LambdaInsights function_name:Crayfish rx_bytes Average 60,eu-north-1:LambdaInsights function_name:Crayfish tx_bytes Average 60,eu-north-1:LambdaInsights function_name:Crayfish total_network Average 60,
 Label,rx_bytes,tx_bytes,total_network,
 2024/08/31 21:04:00,42,42,84,
-2024/08/31 21:05:00,15900,11128.3,27028.3
-2024/08/31 21:06:00,7839.75,7735.1,15574.85
+2024/08/31 21:05:00,15900,11128.3,27028.3,
+2024/08/31 21:06:00,7839.75,7735.1,15574.85,
 2024/08/31 21:07:00,7849.5,7755.6,15605.1
 2024/08/31 21:08:00,7851.6,7783.5,15635.1
 2024/08/31 21:09:00,7842.3,7754.75,15597.05
