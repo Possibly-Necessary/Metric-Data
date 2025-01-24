@@ -1,13 +1,13 @@
 data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2,metric_alias_metrics_view_graph_3
-StatusCode,Complete,Complete,Complete,Complete
-Messages,,,,
+StatusCode,Complete,Complete,Complete,Complete,
+Messages,,,,,
 Full label,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationScheduleTime Maximum 60,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationsStarted Maximum 60,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationRunTime Maximum 60,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationTime Maximum 60
-Label,ServiceIntegrationScheduleTime,ServiceIntegrationsStarted,ServiceIntegrationRunTime,ServiceIntegrationTime
-2024/09/01 20:31:00,673,1,,
-2024/09/01 20:32:00,308,1,1646,1841
-2024/09/01 20:33:00,278,1,1224,1423
-2024/09/01 20:34:00,406,1,1240,1530
-2024/09/01 20:35:00,336,1,1292,1480
-2024/09/01 20:36:00,305,1,1187,1443
-2024/09/01 20:37:00,270,1,1260,1494
-2024/09/01 20:38:00,315,1,1238,1478
+Label,ServiceIntegrationScheduleTime,ServiceIntegrationsStarted,ServiceIntegrationRunTime,ServiceIntegrationTime,
+2024/09/01 20:31:00,673,1,,,
+2024/09/01 20:32:00,308,1,1646,1841,
+2024/09/01 20:33:00,278,1,1224,1423,
+2024/09/01 20:34:00,406,1,1240,1530,
+2024/09/01 20:35:00,336,1,1292,1480,
+2024/09/01 20:36:00,305,1,1187,1443,
+2024/09/01 20:37:00,270,1,1260,1494,
+2024/09/01 20:38:00,315,1,1238,1478,
