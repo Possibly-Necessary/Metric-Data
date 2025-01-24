@@ -1,13 +1,13 @@
 data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2,metric_alias_metrics_view_graph_3
-StatusCode,Complete,Complete,Complete,Complete
-Messages,,,,
+StatusCode,Complete,Complete,Complete,Complete,
+Messages,,,,,
 Full label,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationScheduleTime Average 60,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationsStarted Average 60,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationRunTime Average 60,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationTime Average 60
-Label,ServiceIntegrationScheduleTime,ServiceIntegrationsStarted,ServiceIntegrationRunTime,ServiceIntegrationTime
-2024/09/01 20:31:00,673,1,,
-2024/09/01 20:32:00,201.4418604651163,1,1259.5681818181818,1471.7272727272727
-2024/09/01 20:33:00,180.3913043478261,1,1069.3181818181818,1256
-2024/09/01 20:34:00,209.7906976744186,1,1065.9545454545455,1271.9318181818182
-2024/09/01 20:35:00,186.54545454545453,1,1064.1818181818182,1250.7272727272727
-2024/09/01 20:36:00,195.5909090909091,1,1046.1818181818182,1241.7727272727273
-2024/09/01 20:37:00,185.13636363636363,1,1074.8181818181818,1259.9545454545455
-2024/09/01 20:38:00,187.27272727272728,1,1074.7727272727273,1262.0454545454545
+Label,ServiceIntegrationScheduleTime,ServiceIntegrationsStarted,ServiceIntegrationRunTime,ServiceIntegrationTime,
+2024/09/01 20:31:00,673,1,,,
+2024/09/01 20:32:00,201.4418604651163,1,1259.5681818181818,1471.7272727272727,
+2024/09/01 20:33:00,180.3913043478261,1,1069.3181818181818,1256,
+2024/09/01 20:34:00,209.7906976744186,1,1065.9545454545455,1271.9318181818182,
+2024/09/01 20:35:00,186.54545454545453,1,1064.1818181818182,1250.7272727272727,
+2024/09/01 20:36:00,195.5909090909091,1,1046.1818181818182,1241.7727272727273,
+2024/09/01 20:37:00,185.13636363636363,1,1074.8181818181818,1259.9545454545455,
+2024/09/01 20:38:00,187.27272727272728,1,1074.7727272727273,1262.0454545454545,
