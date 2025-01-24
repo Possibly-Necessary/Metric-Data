@@ -2,11 +2,11 @@ data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_me
 StatusCode,Complete,Complete,Complete,
 Messages,,,
 Full label,eu-north-1:LambdaInsights function_name:initCrayfishPop used_memory_max Average 60,eu-north-1:LambdaInsights function_name:Crayfish used_memory_max Average 60,eu-north-1:LambdaInsights function_name:aggrCrayfish used_memory_max Average 60,
-Label,used_memory_max,used_memory_max,used_memory_max
-2024/09/01 20:32:00,75.5,35.75,32.5
-2024/09/01 20:33:00,79.5,38,33
-2024/09/01 20:34:00,84,38.45,33.5
-2024/09/01 20:35:00,87.5,38.925,34
-2024/09/01 20:36:00,95,39,34
+Label,used_memory_max,used_memory_max,used_memory_max,
+2024/09/01 20:32:00,75.5,35.75,32.5,
+2024/09/01 20:33:00,79.5,38,33,
+2024/09/01 20:34:00,84,38.45,33.5,
+2024/09/01 20:35:00,87.5,38.925,34,
+2024/09/01 20:36:00,95,39,34,
 2024/09/01 20:37:00,95,39,34
 2024/09/01 20:38:00,96,39,34
