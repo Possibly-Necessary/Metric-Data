@@ -1,7 +1,7 @@
 data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2,metric_alias_metrics_view_graph_3
 StatusCode,Complete,Complete,Complete,Complete,
 Messages,,,,,
-Full label,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationScheduleTime Average 60,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationsStarted Average 60,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationRunTime Average 60,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationTime Average 60
+Full label,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationScheduleTime Average 60,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationsStarted Average 60,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationRunTime Average 60,eu-north-1:AWS/States ServiceIntegrationResourceArn:arn:aws:states:eu-north-1:382277151775:lambda:invoke ServiceIntegrationTime Average 60,
 Label,ServiceIntegrationScheduleTime,ServiceIntegrationsStarted,ServiceIntegrationRunTime,ServiceIntegrationTime,
 2024/09/01 20:31:00,673,1,,,
 2024/09/01 20:32:00,201.4418604651163,1,1259.5681818181818,1471.7272727272727,
