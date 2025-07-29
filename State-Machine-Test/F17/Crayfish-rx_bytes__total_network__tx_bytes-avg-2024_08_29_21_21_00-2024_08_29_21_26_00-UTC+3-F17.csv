@@ -1,11 +1,11 @@
 data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1,metric_alias_metrics_view_graph_2
-StatusCode,Complete,Complete,Complete
-Messages,,,
-Full label,eu-north-1:LambdaInsights function_name:Crayfish tx_bytes Average 60,eu-north-1:LambdaInsights function_name:Crayfish rx_bytes Average 60,eu-north-1:LambdaInsights function_name:Crayfish total_network Average 60
-Label,tx_bytes,rx_bytes,total_network
-2024/08/29 21:21:00,5590.2,7961.1,13551.3
-2024/08/29 21:22:00,7731.1,7842.75,15573.85
-2024/08/29 21:23:00,7766.9,7859.1,15626
-2024/08/29 21:24:00,7716.5,7821,15537.5
-2024/08/29 21:25:00,7755.55,7831.6,15587.15
-2024/08/29 21:26:00,7783.6,7859.1,15642.7
+StatusCode,Complete,Complete,Complete,
+Messages,,,,
+Full label,eu-north-1:LambdaInsights function_name:Crayfish tx_bytes Average 60,eu-north-1:LambdaInsights function_name:Crayfish rx_bytes Average 60,eu-north-1:LambdaInsights function_name:Crayfish total_network Average 60,
+Label,tx_bytes,rx_bytes,total_network,
+2024/08/29 21:21:00,5590.2,7961.1,13551.3,
+2024/08/29 21:22:00,7731.1,7842.75,15573.85,
+2024/08/29 21:23:00,7766.9,7859.1,15626,
+2024/08/29 21:24:00,7716.5,7821,15537.5,
+2024/08/29 21:25:00,7755.55,7831.6,15587.15,
+2024/08/29 21:26:00,7783.6,7859.1,15642.7,
