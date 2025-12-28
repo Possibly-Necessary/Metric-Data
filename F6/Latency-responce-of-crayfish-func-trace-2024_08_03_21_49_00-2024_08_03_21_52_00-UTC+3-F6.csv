@@ -1,9 +1,9 @@
 data:text/csv;charset=utf-8,Id,metric_alias_w_SgFxeHOOipkeqpmPlmn8z_0,metric_alias_w_SgFxeHOOipkeqpmPlmn8z_1
-StatusCode,Complete,Complete
-Messages,,
-Full label,eu-north-1:AWS/X-Ray GroupName:Default ServiceName:CrayfishFunction ServiceType:NONE ResponseTime p50 60,eu-north-1:AWS/X-Ray GroupName:Default ServiceName:CrayfishFunction ServiceType:NONE ResponseTime p90 60
-Label,ResponseTime,ResponseTime
-2024/08/03 21:49:00,1.0826645188807436,1.168950423471037
-2024/08/03 21:50:00,1.079230345298891,1.1514970201581094
-2024/08/03 21:51:00,1.153689732987167,1.2100000000000002
-2024/08/03 21:52:00,1.1219192516923466,1.1763241061396899
+StatusCode,Complete,Complete,
+Messages,,,
+Full label,eu-north-1:AWS/X-Ray GroupName:Default ServiceName:CrayfishFunction ServiceType:NONE ResponseTime p50 60,eu-north-1:AWS/X-Ray GroupName:Default ServiceName:CrayfishFunction ServiceType:NONE ResponseTime p90 60,
+Label,ResponseTime,ResponseTime,
+2024/08/03 21:49:00,1.0826645188807436,1.168950423471037,
+2024/08/03 21:50:00,1.079230345298891,1.1514970201581094,
+2024/08/03 21:51:00,1.153689732987167,1.2100000000000002,
+2024/08/03 21:52:00,1.1219192516923466,1.1763241061396899,
