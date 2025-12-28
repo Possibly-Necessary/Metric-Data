@@ -1,10 +1,10 @@
 data:text/csv;charset=utf-8,Id,metric_alias_metrics_view_graph_0,metric_alias_metrics_view_graph_1
-StatusCode,Complete,Complete
-Messages,,
-Full label,eu-north-1:AWS/X-Ray GroupName:Default ServiceName:https://sqs.eu-north-1.amazonaws.com/382277151775/resultQueue ServiceType:AWS::SQS::Queue ResponseTime Maximum 60,eu-north-1:AWS/X-Ray GroupName:Default ServiceName:https://sqs.eu-north-1.amazonaws.com/382277151775/resultQueue ServiceType:AWS::SQS::Queue ResponseTime Maximum 60
-Label,ResponseTime,ResponseTime
-2024/08/03 21:48:00,0.115188837,0.115188837
-2024/08/03 21:49:00,0.03962993621,0.03962993621
-2024/08/03 21:50:00,0.09211230278,0.09211230278
-2024/08/03 21:51:00,0.03727221488,0.03727221488
-2024/08/03 21:52:00,0.04728722572,0.04728722572
+StatusCode,Complete,Complete,
+Messages,,,
+Full label,eu-north-1:AWS/X-Ray GroupName:Default ServiceName:https://sqs.eu-north-1.amazonaws.com/382277151775/resultQueue ServiceType:AWS::SQS::Queue ResponseTime Maximum 60,eu-north-1:AWS/X-Ray GroupName:Default ServiceName:https://sqs.eu-north-1.amazonaws.com/382277151775/resultQueue ServiceType:AWS::SQS::Queue ResponseTime Maximum 60,
+Label,ResponseTime,ResponseTime,
+2024/08/03 21:48:00,0.115188837,0.115188837,
+2024/08/03 21:49:00,0.03962993621,0.03962993621,
+2024/08/03 21:50:00,0.09211230278,0.09211230278,
+2024/08/03 21:51:00,0.03727221488,0.03727221488,
+2024/08/03 21:52:00,0.04728722572,0.04728722572,
